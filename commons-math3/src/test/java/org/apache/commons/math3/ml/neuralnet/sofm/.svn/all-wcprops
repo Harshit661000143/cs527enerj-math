@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1571639/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ml/neuralnet/sofm
+END
+LearningFactorFunctionFactoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/1557267/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ml/neuralnet/sofm/LearningFactorFunctionFactoryTest.java
+END
+KohonenTrainingTaskTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1560953/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ml/neuralnet/sofm/KohonenTrainingTaskTest.java
+END
+KohonenUpdateActionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1571639/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ml/neuralnet/sofm/KohonenUpdateActionTest.java
+END
+NeighbourhoodSizeFunctionFactoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/asf/!svn/ver/1557267/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ml/neuralnet/sofm/NeighbourhoodSizeFunctionFactoryTest.java
+END
+TravellingSalesmanSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1560953/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ml/neuralnet/sofm/TravellingSalesmanSolver.java
+END

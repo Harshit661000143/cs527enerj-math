@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1624756/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference
+END
+GTestTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference/GTestTest.java
+END
+MannWhitneyUTestTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1624756/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference/MannWhitneyUTestTest.java
+END
+OneWayAnovaTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1456958/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference/OneWayAnovaTest.java
+END
+WilcoxonSignedRankTestTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1364030/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTestTest.java
+END
+BinomialTestTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1532638/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference/BinomialTestTest.java
+END
+KolmogorovSmirnovTestTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1613723/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference/KolmogorovSmirnovTestTest.java
+END
+TestUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1592430/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference/TestUtilsTest.java
+END
+TTestTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1364030/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference/TTestTest.java
+END
+ChiSquareTestTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1364030/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/inference/ChiSquareTestTest.java
+END

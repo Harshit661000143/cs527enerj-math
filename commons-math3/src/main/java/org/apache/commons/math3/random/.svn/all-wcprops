@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/asf/!svn/ver/1612042/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random
+END
+RandomAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1612042/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/RandomAdaptor.java
+END
+Well512a.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/Well512a.java
+END
+MersenneTwister.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/MersenneTwister.java
+END
+EmpiricalDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1604639/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java
+END
+Well1024a.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/Well1024a.java
+END
+AbstractRandomGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/AbstractRandomGenerator.java
+END
+SobolSequenceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/SobolSequenceGenerator.java
+END
+RandomGeneratorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1509230/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/RandomGeneratorFactory.java
+END
+UnitSphereRandomVectorGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1444500/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/UnitSphereRandomVectorGenerator.java
+END
+ISAACRandom.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/ISAACRandom.java
+END
+Well19937a.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/Well19937a.java
+END
+Well44497b.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/Well44497b.java
+END
+StableRandomGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/StableRandomGenerator.java
+END
+Well19937c.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/Well19937c.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/package-info.java
+END
+AbstractWell.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/AbstractWell.java
+END
+RandomDataImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1499808/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/RandomDataImpl.java
+END
+ValueServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1587494/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/ValueServer.java
+END
+RandomData.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1499808/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/RandomData.java
+END
+RandomVectorGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/RandomVectorGenerator.java
+END
+NormalizedRandomGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/NormalizedRandomGenerator.java
+END
+CorrelatedRandomVectorGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/CorrelatedRandomVectorGenerator.java
+END
+JDKRandomGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1509236/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/JDKRandomGenerator.java
+END
+Well44497a.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/Well44497a.java
+END
+RandomDataGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1612042/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java
+END
+UncorrelatedRandomVectorGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/UncorrelatedRandomVectorGenerator.java
+END
+GaussianRandomGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/GaussianRandomGenerator.java
+END
+BitsStreamGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1612042/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java
+END
+HaltonSequenceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1512043/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/HaltonSequenceGenerator.java
+END
+UniformRandomGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/UniformRandomGenerator.java
+END
+RandomGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1612042/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/RandomGenerator.java
+END
+SynchronizedRandomGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/random/SynchronizedRandomGenerator.java
+END

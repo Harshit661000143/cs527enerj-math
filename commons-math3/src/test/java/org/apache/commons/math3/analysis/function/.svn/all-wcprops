@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/function
+END
+SqrtTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/function/SqrtTest.java
+END
+GaussianTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1383441/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/function/GaussianTest.java
+END
+SigmoidTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1374631/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/function/SigmoidTest.java
+END
+HarmonicOscillatorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1374631/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/function/HarmonicOscillatorTest.java
+END
+SincTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1374631/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/function/SincTest.java
+END
+LogisticTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1374631/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/function/LogisticTest.java
+END
+LogitTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1383441/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/function/LogitTest.java
+END
+StepFunctionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/function/StepFunctionTest.java
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/1337527/commons/proper/math/trunk/src/test/resources/org/apache/commons/math3/random
+END
+testData.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/resources/org/apache/commons/math3/random/testData.txt
+END
+emptyFile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1337527/commons/proper/math/trunk/src/test/resources/org/apache/commons/math3/random/emptyFile.txt
+END

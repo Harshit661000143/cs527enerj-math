@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1607434/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation
+END
+SplineInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1379905/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/SplineInterpolator.java
+END
+HermiteInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1517203/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/HermiteInterpolator.java
+END
+NevilleInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1379904/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/NevilleInterpolator.java
+END
+FieldHermiteInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/FieldHermiteInterpolator.java
+END
+MultivariateInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/MultivariateInterpolator.java
+END
+SmoothingPolynomialBicubicSplineInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/SmoothingPolynomialBicubicSplineInterpolator.java
+END
+UnivariateInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/UnivariateInterpolator.java
+END
+LinearInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1379904/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/LinearInterpolator.java
+END
+BicubicSplineInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1607434/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolator.java
+END
+BivariateGridInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/BivariateGridInterpolator.java
+END
+BicubicSplineInterpolatingFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1607434/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatingFunction.java
+END
+TricubicSplineInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/1607434/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/TricubicSplineInterpolator.java
+END
+MicrosphereInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1379904/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/MicrosphereInterpolator.java
+END
+TrivariateGridInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/TrivariateGridInterpolator.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1364387/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/package-info.java
+END
+TricubicSplineInterpolatingFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/1385314/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/TricubicSplineInterpolatingFunction.java
+END
+DividedDifferenceInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/1385313/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/DividedDifferenceInterpolator.java
+END
+MicrosphereInterpolatingFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/MicrosphereInterpolatingFunction.java
+END
+LoessInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1379904/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/LoessInterpolator.java
+END
+UnivariatePeriodicInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1459739/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/interpolation/UnivariatePeriodicInterpolator.java
+END

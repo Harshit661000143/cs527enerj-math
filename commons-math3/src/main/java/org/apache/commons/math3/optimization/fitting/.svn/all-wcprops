@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1591835/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optimization/fitting
+END
+WeightedObservedPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1422230/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optimization/fitting/package-info.java
+END
+GaussianFitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1422230/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optimization/fitting/GaussianFitter.java
+END
+HarmonicFitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1591835/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java
+END
+PolynomialFitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1422313/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optimization/fitting/PolynomialFitter.java
+END
+CurveFitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1591835/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optimization/fitting/CurveFitter.java
+END

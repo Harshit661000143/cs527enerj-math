@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/asf/!svn/ver/1578428/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers
+END
+MullerSolver2Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1374632/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/MullerSolver2Test.java
+END
+IllinoisSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/IllinoisSolverTest.java
+END
+UnivariateSolverUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1578428/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/UnivariateSolverUtilsTest.java
+END
+RiddersSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1374632/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/RiddersSolverTest.java
+END
+BaseSecantSolverAbstractTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1374632/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/BaseSecantSolverAbstractTest.java
+END
+RegulaFalsiSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/RegulaFalsiSolverTest.java
+END
+MullerSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1374632/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/MullerSolverTest.java
+END
+NewtonRaphsonSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1383441/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/NewtonRaphsonSolverTest.java
+END
+LaguerreSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1361793/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/LaguerreSolverTest.java
+END
+PegasusSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/PegasusSolverTest.java
+END
+NewtonSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1383441/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/NewtonSolverTest.java
+END
+BrentSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1383845/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/BrentSolverTest.java
+END
+BracketingNthOrderBrentSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1383441/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/BracketingNthOrderBrentSolverTest.java
+END
+SecantSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/SecantSolverTest.java
+END
+BisectionSolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1374632/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/solvers/BisectionSolverTest.java
+END

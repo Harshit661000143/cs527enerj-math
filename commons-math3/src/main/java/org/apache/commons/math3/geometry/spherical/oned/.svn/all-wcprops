@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1571737/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/spherical/oned
+END
+ArcsSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1563714/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1554648/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/spherical/oned/package-info.java
+END
+Arc.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1554654/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/spherical/oned/Arc.java
+END
+LimitAngle.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1560115/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/spherical/oned/LimitAngle.java
+END
+Sphere1D.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1571737/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/spherical/oned/Sphere1D.java
+END
+S1Point.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1554654/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/spherical/oned/S1Point.java
+END
+SubLimitAngle.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1563714/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/spherical/oned/SubLimitAngle.java
+END

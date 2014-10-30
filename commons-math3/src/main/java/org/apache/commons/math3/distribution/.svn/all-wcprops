@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1615790/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution
+END
+PascalDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1533974/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java
+END
+TDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1598342/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/TDistribution.java
+END
+TriangularDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/TriangularDistribution.java
+END
+KolmogorovSmirnovDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1591211/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java
+END
+GeometricDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1533974/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/GeometricDistribution.java
+END
+LevyDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1533974/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/LevyDistribution.java
+END
+AbstractIntegerDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
+END
+RealDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1499808/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/RealDistribution.java
+END
+ChiSquaredDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1533974/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/ChiSquaredDistribution.java
+END
+NormalDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1535290/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java
+END
+EnumeratedDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1456769/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/EnumeratedDistribution.java
+END
+PoissonDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1540217/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java
+END
+LogNormalDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1538998/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java
+END
+SaddlePointExpansion.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/SaddlePointExpansion.java
+END
+UniformIntegerDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1615790/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/UniformIntegerDistribution.java
+END
+WeibullDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1538998/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java
+END
+EnumeratedIntegerDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1456769/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/EnumeratedIntegerDistribution.java
+END
+AbstractRealDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1533974/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java
+END
+ZipfDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1533974/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/ZipfDistribution.java
+END
+MultivariateRealDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/MultivariateRealDistribution.java
+END
+BetaDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1533990/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java
+END
+CauchyDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1519842/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java
+END
+MultivariateNormalDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1503290/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java
+END
+GammaDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1534362/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java
+END
+UniformRealDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1462020/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/UniformRealDistribution.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/package-info.java
+END
+FDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1534358/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/FDistribution.java
+END
+ExponentialDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1534358/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java
+END
+HypergeometricDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1534358/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java
+END
+MixtureMultivariateRealDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1517418/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java
+END
+ParetoDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1533974/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/ParetoDistribution.java
+END
+BinomialDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1609775/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java
+END
+EnumeratedRealDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1566274/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/EnumeratedRealDistribution.java
+END
+ConstantRealDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1604639/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/ConstantRealDistribution.java
+END
+MixtureMultivariateNormalDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1517418/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateNormalDistribution.java
+END
+IntegerDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/IntegerDistribution.java
+END
+AbstractMultivariateRealDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/distribution/AbstractMultivariateRealDistribution.java
+END

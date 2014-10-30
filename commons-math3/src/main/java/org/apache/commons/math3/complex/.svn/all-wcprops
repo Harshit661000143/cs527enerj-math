@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1591835/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/complex
+END
+ComplexField.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/complex/ComplexField.java
+END
+ComplexFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/complex/ComplexFormat.java
+END
+RootsOfUnity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/complex/RootsOfUnity.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/complex/package-info.java
+END
+Quaternion.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1421249/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/complex/Quaternion.java
+END
+Complex.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1591835/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/complex/Complex.java
+END
+ComplexUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/complex/ComplexUtils.java
+END

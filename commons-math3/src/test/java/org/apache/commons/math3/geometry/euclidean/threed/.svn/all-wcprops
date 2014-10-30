@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1590254/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed
+END
+Euclidean3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1571737/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/Euclidean3DTest.java
+END
+PolyhedronsSetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1590254/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/PolyhedronsSetTest.java
+END
+Vector3DFormatAbstractTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/1379977/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/Vector3DFormatAbstractTest.java
+END
+LineTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1555174/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/LineTest.java
+END
+FrenchVector3DFormatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/FrenchVector3DFormatTest.java
+END
+Vector3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1447259/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/Vector3DTest.java
+END
+FieldRotationDSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1450096/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotationDSTest.java
+END
+RotationOrderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/RotationOrderTest.java
+END
+SphereGeneratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1563712/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/SphereGeneratorTest.java
+END
+FieldVector3DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1450096/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/FieldVector3DTest.java
+END
+FieldRotationDfpTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1450096/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotationDfpTest.java
+END
+RotationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1379977/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/RotationTest.java
+END
+PlaneTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1555174/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/PlaneTest.java
+END
+SubLineTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1555174/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/SubLineTest.java
+END
+Vector3DFormatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/Vector3DFormatTest.java
+END
+SphericalCoordinatesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1443178/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/SphericalCoordinatesTest.java
+END

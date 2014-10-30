@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/asf/!svn/ver/1572341/commons/proper/math/trunk/src/test/R
+END
+regressionTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/722335/commons/proper/math/trunk/src/test/R/regressionTestCases
+END
+correlationTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/asf/!svn/ver/1537664/commons/proper/math/trunk/src/test/R/correlationTestCases
+END
+descriptiveTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/722335/commons/proper/math/trunk/src/test/R/descriptiveTestCases
+END
+GammaDistributionTestCases.R
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/922691/commons/proper/math/trunk/src/test/R/GammaDistributionTestCases.R
+END
+chiSquareTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/722335/commons/proper/math/trunk/src/test/R/chiSquareTestCases
+END
+ChiSquareDistributionTestCases.R
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/922691/commons/proper/math/trunk/src/test/R/ChiSquareDistributionTestCases.R
+END
+FDistributionTestCases.R
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/922691/commons/proper/math/trunk/src/test/R/FDistributionTestCases.R
+END
+hypergeometricTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/1534369/commons/proper/math/trunk/src/test/R/hypergeometricTestCases
+END
+exponentialTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/922691/commons/proper/math/trunk/src/test/R/exponentialTestCases
+END
+normalTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/921208/commons/proper/math/trunk/src/test/R/normalTestCases
+END
+testAll
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/1572335/commons/proper/math/trunk/src/test/R/testAll
+END
+testFunctions
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/1534369/commons/proper/math/trunk/src/test/R/testFunctions
+END
+binomialTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/722335/commons/proper/math/trunk/src/test/R/binomialTestCases
+END
+logNormalTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/1232324/commons/proper/math/trunk/src/test/R/logNormalTestCases
+END
+paretoTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/1480056/commons/proper/math/trunk/src/test/R/paretoTestCases
+END
+poissonTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/722335/commons/proper/math/trunk/src/test/R/poissonTestCases
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/722335/commons/proper/math/trunk/src/test/R/README.txt
+END
+WeibullDistributionTestCases.R
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/922691/commons/proper/math/trunk/src/test/R/WeibullDistributionTestCases.R
+END
+TTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/722335/commons/proper/math/trunk/src/test/R/TTestCases
+END
+TDistributionTestCases.R
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/921919/commons/proper/math/trunk/src/test/R/TDistributionTestCases.R
+END
+pascalTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/921631/commons/proper/math/trunk/src/test/R/pascalTestCases
+END
+anovaTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/722335/commons/proper/math/trunk/src/test/R/anovaTestCases
+END
+zipfTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/asf/!svn/ver/1534389/commons/proper/math/trunk/src/test/R/zipfTestCases
+END
+multipleOLSRegressionTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/996404/commons/proper/math/trunk/src/test/R/multipleOLSRegressionTestCases
+END
+covarianceTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/743688/commons/proper/math/trunk/src/test/R/covarianceTestCases
+END
+cauchyTestCases.R
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/921919/commons/proper/math/trunk/src/test/R/cauchyTestCases.R
+END
+KolmogorovSmirnovTestCases.R
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/asf/!svn/ver/1572341/commons/proper/math/trunk/src/test/R/KolmogorovSmirnovTestCases.R
+END
+KolmogorovSmirnovDistributionTestCases.R
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1296918/commons/proper/math/trunk/src/test/R/KolmogorovSmirnovDistributionTestCases.R
+END
+geometricTestCases
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/1534375/commons/proper/math/trunk/src/test/R/geometricTestCases
+END
+LevyDistributionTestCases.R
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/1456907/commons/proper/math/trunk/src/test/R/LevyDistributionTestCases.R
+END

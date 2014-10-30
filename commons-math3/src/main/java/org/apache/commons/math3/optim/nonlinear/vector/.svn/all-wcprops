@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/vector
+END
+ModelFunctionJacobian.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1515242/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunctionJacobian.java
+END
+JacobianMultivariateVectorOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/1515242/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/JacobianMultivariateVectorOptimizer.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1515242/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/package-info.java
+END
+MultiStartMultivariateVectorOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/asf/!svn/ver/1435539/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/MultiStartMultivariateVectorOptimizer.java
+END
+ModelFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1515242/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunction.java
+END
+Target.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1515242/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Target.java
+END
+Weight.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1515242/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Weight.java
+END
+MultivariateVectorOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1503290/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/MultivariateVectorOptimizer.java
+END

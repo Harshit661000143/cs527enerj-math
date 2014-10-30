@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1517203/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/polynomials
+END
+PolynomialSplineFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1491625/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialSplineFunction.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1364387/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/polynomials/package-info.java
+END
+PolynomialsUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1517203/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialsUtils.java
+END
+PolynomialFunctionNewtonForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunctionNewtonForm.java
+END
+PolynomialFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java
+END
+PolynomialFunctionLagrangeForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunctionLagrangeForm.java
+END

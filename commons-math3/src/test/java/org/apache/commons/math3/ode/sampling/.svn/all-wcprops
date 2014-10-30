@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1624752/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ode/sampling
+END
+StepNormalizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1379975/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ode/sampling/StepNormalizerTest.java
+END
+StepInterpolatorTestUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1379975/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ode/sampling/StepInterpolatorTestUtils.java
+END
+StepNormalizerOutputTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1296822/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ode/sampling/StepNormalizerOutputTest.java
+END
+NordsieckStepInterpolatorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1379975/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ode/sampling/NordsieckStepInterpolatorTest.java
+END
+StepNormalizerOutputOverlapTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1296822/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ode/sampling/StepNormalizerOutputOverlapTest.java
+END
+DummyStepInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1624752/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ode/sampling/DummyStepInterpolator.java
+END
+DummyStepInterpolatorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1379975/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ode/sampling/DummyStepInterpolatorTest.java
+END
+StepNormalizerOutputTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1488743/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/ode/sampling/StepNormalizerOutputTestBase.java
+END

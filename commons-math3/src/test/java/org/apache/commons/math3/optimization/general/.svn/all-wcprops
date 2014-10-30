@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general
+END
+NonLinearConjugateGradientOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/asf/!svn/ver/1504468/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/NonLinearConjugateGradientOptimizerTest.java
+END
+StatisticalReferenceDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1384907/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/StatisticalReferenceDataset.java
+END
+CircleVectorial.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1384907/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/CircleVectorial.java
+END
+StraightLineProblem.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1384907/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/StraightLineProblem.java
+END
+AbstractLeastSquaresOptimizerTestValidation.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/1407010/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizerTestValidation.java
+END
+RandomStraightLinePointGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1370217/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/RandomStraightLinePointGenerator.java
+END
+GaussNewtonOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1332924/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/GaussNewtonOptimizerTest.java
+END
+MinpackTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1384907/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/MinpackTest.java
+END
+CircleProblem.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1384907/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/CircleProblem.java
+END
+RandomCirclePointGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/1384907/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/RandomCirclePointGenerator.java
+END
+CircleScalar.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1384907/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/CircleScalar.java
+END
+AbstractLeastSquaresOptimizerAbstractTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/asf/!svn/ver/1407467/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizerAbstractTest.java
+END
+LevenbergMarquardtOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/LevenbergMarquardtOptimizerTest.java
+END
+StatisticalReferenceDatasetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/1505938/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/StatisticalReferenceDatasetFactory.java
+END
+AbstractLeastSquaresOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/asf/!svn/ver/1437541/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizerTest.java
+END

@@ -1,0 +1,413 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/asf/!svn/ver/1570994/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear
+END
+FieldMatrixChangingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/FieldMatrixChangingVisitor.java
+END
+OpenMapRealMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1569825/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/OpenMapRealMatrix.java
+END
+DefaultIterativeLinearSolverEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/DefaultIterativeLinearSolverEvent.java
+END
+RealVectorPreservingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RealVectorPreservingVisitor.java
+END
+NonSymmetricMatrixException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/NonSymmetricMatrixException.java
+END
+JacobiPreconditioner.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1422195/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/JacobiPreconditioner.java
+END
+RealMatrixPreservingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RealMatrixPreservingVisitor.java
+END
+DefaultFieldMatrixPreservingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/DefaultFieldMatrixPreservingVisitor.java
+END
+DefaultRealMatrixPreservingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/DefaultRealMatrixPreservingVisitor.java
+END
+FieldVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1455233/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/FieldVector.java
+END
+RectangularCholeskyDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1422313/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java
+END
+LUDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1566017/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/LUDecomposition.java
+END
+FieldLUDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1449528/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/FieldLUDecomposition.java
+END
+RealMatrixFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1364793/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RealMatrixFormat.java
+END
+SymmLQ.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1505938/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/SymmLQ.java
+END
+BlockRealMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java
+END
+RRQRDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1570994/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RRQRDecomposition.java
+END
+SparseFieldVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1570536/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java
+END
+IterativeLinearSolverEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1505934/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/IterativeLinearSolverEvent.java
+END
+RealVectorChangingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RealVectorChangingVisitor.java
+END
+Array2DRowFieldMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1449528/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java
+END
+Array2DRowRealMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1459082/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java
+END
+RealMatrixChangingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RealMatrixChangingVisitor.java
+END
+NonPositiveDefiniteMatrixException.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/NonPositiveDefiniteMatrixException.java
+END
+AbstractFieldMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1454876/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java
+END
+DiagonalMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1533638/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/DiagonalMatrix.java
+END
+ArrayRealVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java
+END
+RealVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1570510/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RealVector.java
+END
+PreconditionedIterativeLinearSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/PreconditionedIterativeLinearSolver.java
+END
+BiDiagonalTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/BiDiagonalTransformer.java
+END
+SingularValueDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java
+END
+MatrixDimensionMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/MatrixDimensionMismatchException.java
+END
+QRDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1570994/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/QRDecomposition.java
+END
+TriDiagonalTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java
+END
+IterativeLinearSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/IterativeLinearSolver.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/package-info.java
+END
+SparseRealMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1569825/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/SparseRealMatrix.java
+END
+OpenMapRealVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1570254/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java
+END
+RealLinearOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RealLinearOperator.java
+END
+AbstractRealMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1459534/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java
+END
+NonSquareOperatorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/NonSquareOperatorException.java
+END
+SchurTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/SchurTransformer.java
+END
+DecompositionSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1566017/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/DecompositionSolver.java
+END
+NonSelfAdjointOperatorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/NonSelfAdjointOperatorException.java
+END
+FieldMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/FieldMatrix.java
+END
+HessenbergTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/HessenbergTransformer.java
+END
+FieldDecompositionSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/FieldDecompositionSolver.java
+END
+RealVectorFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java
+END
+BlockFieldMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1449528/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java
+END
+EigenDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1538368/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java
+END
+MatrixUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1533638/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java
+END
+SparseFieldMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1569825/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/SparseFieldMatrix.java
+END
+SingularMatrixException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/SingularMatrixException.java
+END
+FieldVectorPreservingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1570536/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/FieldVectorPreservingVisitor.java
+END
+IllConditionedOperatorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/IllConditionedOperatorException.java
+END
+DefaultRealMatrixChangingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/DefaultRealMatrixChangingVisitor.java
+END
+DefaultFieldMatrixChangingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/DefaultFieldMatrixChangingVisitor.java
+END
+ConjugateGradient.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1562755/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/ConjugateGradient.java
+END
+FieldMatrixPreservingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/FieldMatrixPreservingVisitor.java
+END
+ArrayFieldVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1570536/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java
+END
+RealMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/RealMatrix.java
+END
+AnyMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/AnyMatrix.java
+END
+CholeskyDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1566017/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/CholeskyDecomposition.java
+END
+SingularOperatorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/SingularOperatorException.java
+END
+NonSquareMatrixException.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/NonSquareMatrixException.java
+END
+NonPositiveDefiniteOperatorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/NonPositiveDefiniteOperatorException.java
+END
+SparseRealVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1570254/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/SparseRealVector.java
+END
+FieldVectorChangingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1570536/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/linear/FieldVectorChangingVisitor.java
+END

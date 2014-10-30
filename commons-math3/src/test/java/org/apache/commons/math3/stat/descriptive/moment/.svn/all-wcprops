@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1625238/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment
+END
+ThirdMomentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/ThirdMomentTest.java
+END
+SecondMomentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/SecondMomentTest.java
+END
+GeometricMeanTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/GeometricMeanTest.java
+END
+InteractionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/InteractionTest.java
+END
+MeanTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/MeanTest.java
+END
+SkewnessTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/SkewnessTest.java
+END
+KurtosisTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/KurtosisTest.java
+END
+StandardDeviationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/StandardDeviationTest.java
+END
+VectorialCovarianceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/VectorialCovarianceTest.java
+END
+SemiVarianceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/SemiVarianceTest.java
+END
+FirstMomentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1625238/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/FirstMomentTest.java
+END
+FourthMomentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/FourthMomentTest.java
+END
+VarianceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/VarianceTest.java
+END
+VectorialMeanTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/stat/descriptive/moment/VectorialMeanTest.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1609577/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod
+END
+Euclidean2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1562610/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java
+END
+NestedLoops.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1555174/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java
+END
+DiskGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1564921/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/DiskGenerator.java
+END
+SubLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1555176/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java
+END
+Vector2DFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1467801/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java
+END
+Segment.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1554651/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/package-info.java
+END
+PolygonsSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1590560/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+END
+Line.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1560115/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java
+END
+Vector2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1563684/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java
+END

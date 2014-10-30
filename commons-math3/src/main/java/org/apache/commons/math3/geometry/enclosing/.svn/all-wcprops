@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1591835/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/enclosing
+END
+WelzlEncloser.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1591835/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/enclosing/WelzlEncloser.java
+END
+Encloser.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1562882/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/enclosing/Encloser.java
+END
+EnclosingBall.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1562220/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/enclosing/EnclosingBall.java
+END
+SupportBallGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1562220/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/enclosing/SupportBallGenerator.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1562232/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/enclosing/package-info.java
+END

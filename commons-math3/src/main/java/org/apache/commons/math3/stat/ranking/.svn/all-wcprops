@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1454897/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/stat/ranking
+END
+NaNStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1422313/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/stat/ranking/NaNStrategy.java
+END
+NaturalRanking.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1454897/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/stat/ranking/NaturalRanking.java
+END
+RankingAlgorithm.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/stat/ranking/RankingAlgorithm.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/stat/ranking/package-info.java
+END
+TiesStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/stat/ranking/TiesStrategy.java
+END

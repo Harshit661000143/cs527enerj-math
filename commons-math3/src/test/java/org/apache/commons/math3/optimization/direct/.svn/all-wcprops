@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/asf/!svn/ver/1540167/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/direct
+END
+PowellOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1413594/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/direct/PowellOptimizerTest.java
+END
+SimplexOptimizerNelderMeadTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/direct/SimplexOptimizerNelderMeadTest.java
+END
+MultivariateFunctionMappingAdapterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/1302386/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapterTest.java
+END
+MultivariateFunctionPenaltyAdapterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/1302386/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapterTest.java
+END
+CMAESOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1540167/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/direct/CMAESOptimizerTest.java
+END
+SimplexOptimizerMultiDirectionalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/asf/!svn/ver/1345803/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/direct/SimplexOptimizerMultiDirectionalTest.java
+END
+BOBYQAOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1540075/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizerTest.java
+END

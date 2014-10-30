@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/1503290/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/dfp
+END
+DfpMathTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/dfp/DfpMathTest.java
+END
+DfpDecTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/dfp/DfpDecTest.java
+END
+DfpTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/asf/!svn/ver/1503290/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/dfp/DfpTest.java
+END
+BracketingNthOrderBrentSolverDFPTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFPTest.java
+END
+Decimal10.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/dfp/Decimal10.java
+END

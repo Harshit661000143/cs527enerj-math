@@ -1,0 +1,328 @@
+LUDecompositionTest.java:20: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+LUDecompositionTest.java:21: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+LUDecompositionTest.java:57: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:71: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:82: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:125: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:138: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:150: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:200: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:212: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:253: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:20: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+LUDecompositionTest.java:21: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+LUDecompositionTest.java:57: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:71: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:82: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:125: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:138: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:150: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:200: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:212: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:253: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LUDecompositionTest
+LUDecompositionTest.java:61: error: cannot find symbol
+        Assert.assertEquals(testData.length, LU.getL().getRowDimension());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:62: error: cannot find symbol
+        Assert.assertEquals(testData.length, LU.getL().getColumnDimension());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:63: error: cannot find symbol
+        Assert.assertEquals(testData.length, LU.getU().getRowDimension());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:64: error: cannot find symbol
+        Assert.assertEquals(testData.length, LU.getU().getColumnDimension());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:65: error: cannot find symbol
+        Assert.assertEquals(testData.length, LU.getP().getRowDimension());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:66: error: cannot find symbol
+        Assert.assertEquals(testData.length, LU.getP().getColumnDimension());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:75: error: cannot find symbol
+            Assert.fail("Expecting NonSquareMatrixException");
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:90: error: cannot find symbol
+        Assert.assertEquals(0, norm, normTolerance);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:98: error: cannot find symbol
+        Assert.assertEquals(0, norm, normTolerance);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:106: error: cannot find symbol
+        Assert.assertEquals(0, norm, normTolerance);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:110: error: cannot find symbol
+        Assert.assertFalse(lu.getSolver().isNonSingular());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:111: error: cannot find symbol
+        Assert.assertNull(lu.getL());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:112: error: cannot find symbol
+        Assert.assertNull(lu.getU());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:113: error: cannot find symbol
+        Assert.assertNull(lu.getP());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:117: error: cannot find symbol
+        Assert.assertFalse(lu.getSolver().isNonSingular());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:118: error: cannot find symbol
+        Assert.assertNull(lu.getL());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:119: error: cannot find symbol
+        Assert.assertNull(lu.getU());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:120: error: cannot find symbol
+        Assert.assertNull(lu.getP());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:130: error: cannot find symbol
+            Assert.assertEquals(l.getEntry(i, i), 1, entryTolerance);
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:132: error: cannot find symbol
+                Assert.assertEquals(l.getEntry(i, j), 0, entryTolerance);
+                ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:144: error: cannot find symbol
+                Assert.assertEquals(u.getEntry(i, j), 0, entryTolerance);
+                ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:157: error: cannot find symbol
+        Assert.assertEquals(0, ppT.subtract(id).getNorm(), normTolerance);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:173: error: cannot find symbol
+            Assert.assertEquals(p.getColumnDimension() - 1, zeroCount);
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:174: error: cannot find symbol
+            Assert.assertEquals(1, oneCount);
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:175: error: cannot find symbol
+            Assert.assertEquals(0, otherCount);
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:192: error: cannot find symbol
+            Assert.assertEquals(p.getRowDimension() - 1, zeroCount);
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:193: error: cannot find symbol
+            Assert.assertEquals(1, oneCount);
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:194: error: cannot find symbol
+            Assert.assertEquals(0, otherCount);
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:204: error: cannot find symbol
+        Assert.assertTrue(lu.getSolver().isNonSingular());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:206: error: cannot find symbol
+        Assert.assertFalse(lu.getSolver().isNonSingular());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:208: error: cannot find symbol
+        Assert.assertFalse(lu.getSolver().isNonSingular());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:235: error: cannot find symbol
+        Assert.assertEquals(0, l.subtract(lRef).getNorm(), 1.0e-13);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:237: error: cannot find symbol
+        Assert.assertEquals(0, u.subtract(uRef).getNorm(), 1.0e-13);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:239: error: cannot find symbol
+        Assert.assertEquals(0, p.subtract(pRef).getNorm(), 1.0e-13);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:242: error: cannot find symbol
+            Assert.assertEquals(pivotRef[i], pivot[i]);
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:246: error: cannot find symbol
+        Assert.assertTrue(l == lu.getL());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:247: error: cannot find symbol
+        Assert.assertTrue(u == lu.getU());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:248: error: cannot find symbol
+        Assert.assertTrue(p == lu.getP());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:276: error: cannot find symbol
+        Assert.assertEquals(0, l.subtract(lRef).getNorm(), 1.0e-13);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:278: error: cannot find symbol
+        Assert.assertEquals(0, u.subtract(uRef).getNorm(), 1.0e-13);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:280: error: cannot find symbol
+        Assert.assertEquals(0, p.subtract(pRef).getNorm(), 1.0e-13);
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:283: error: cannot find symbol
+            Assert.assertEquals(pivotRef[i], pivot[i]);
+            ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:287: error: cannot find symbol
+        Assert.assertTrue(l == lu.getL());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:288: error: cannot find symbol
+        Assert.assertTrue(u == lu.getU());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+LUDecompositionTest.java:289: error: cannot find symbol
+        Assert.assertTrue(p == lu.getP());
+        ^
+  symbol:   variable Assert
+  location: class LUDecompositionTest
+56 errors

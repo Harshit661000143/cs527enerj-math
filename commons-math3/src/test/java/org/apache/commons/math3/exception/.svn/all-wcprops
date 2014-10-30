@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/1625967/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception
+END
+DimensionMismatchExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception/DimensionMismatchExceptionTest.java
+END
+NumberIsTooSmallExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception/NumberIsTooSmallExceptionTest.java
+END
+NotStrictlyPositiveExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception/NotStrictlyPositiveExceptionTest.java
+END
+NumberIsTooLargeExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception/NumberIsTooLargeExceptionTest.java
+END
+TooManyEvaluationsExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception/TooManyEvaluationsExceptionTest.java
+END
+NotPositiveExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception/NotPositiveExceptionTest.java
+END
+MaxCountExceededExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception/MaxCountExceededExceptionTest.java
+END
+NonMonotonicSequenceExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception/NonMonotonicSequenceExceptionTest.java
+END
+OutOfRangeExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/exception/OutOfRangeExceptionTest.java
+END

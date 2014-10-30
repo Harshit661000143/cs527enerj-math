@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/1462744/commons/proper/math/trunk/src/test/maxima/special/reference
+END
+gamma.properties
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/1462744/commons/proper/math/trunk/src/test/maxima/special/reference/gamma.properties
+END
+logGamma.properties
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1462744/commons/proper/math/trunk/src/test/maxima/special/reference/logGamma.properties
+END
+gamma.mac
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/asf/!svn/ver/1462744/commons/proper/math/trunk/src/test/maxima/special/reference/gamma.mac
+END
+logGamma.mac
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1462744/commons/proper/math/trunk/src/test/maxima/special/reference/logGamma.mac
+END
+logBeta.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/1462744/commons/proper/math/trunk/src/test/maxima/special/reference/logBeta.properties
+END
+logBeta.mac
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/asf/!svn/ver/1409107/commons/proper/math/trunk/src/test/maxima/special/reference/logBeta.mac
+END

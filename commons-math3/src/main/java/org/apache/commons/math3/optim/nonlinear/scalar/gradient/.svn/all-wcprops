@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1573316/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/gradient
+END
+Preconditioner.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1435539/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/gradient/Preconditioner.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1435539/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/gradient/package-info.java
+END
+NonLinearConjugateGradientOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/1573316/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/gradient/NonLinearConjugateGradientOptimizer.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1509234/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration
+END
+TrapezoidIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration/TrapezoidIntegrator.java
+END
+MidPointIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1499813/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration/MidPointIntegrator.java
+END
+IterativeLegendreGaussIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1499765/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration/IterativeLegendreGaussIntegrator.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1364387/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration/package-info.java
+END
+BaseAbstractUnivariateIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration/BaseAbstractUnivariateIntegrator.java
+END
+UnivariateIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1364387/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration/UnivariateIntegrator.java
+END
+LegendreGaussIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1455194/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration/LegendreGaussIntegrator.java
+END
+SimpsonIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1364387/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration/SimpsonIntegrator.java
+END
+RombergIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1364387/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/analysis/integration/RombergIntegrator.java
+END

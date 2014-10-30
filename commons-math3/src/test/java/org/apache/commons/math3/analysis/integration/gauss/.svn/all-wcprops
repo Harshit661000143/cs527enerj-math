@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss
+END
+LegendreHighPrecisionParametricTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/asf/!svn/ver/1504723/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss/LegendreHighPrecisionParametricTest.java
+END
+BaseRuleFactoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1364137/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss/BaseRuleFactoryTest.java
+END
+GaussianQuadratureAbstractTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss/GaussianQuadratureAbstractTest.java
+END
+HermiteTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1504468/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss/HermiteTest.java
+END
+LegendreParametricTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/1504723/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss/LegendreParametricTest.java
+END
+GaussIntegratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1500018/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss/GaussIntegratorTest.java
+END
+LegendreHighPrecisionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/1363955/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss/LegendreHighPrecisionTest.java
+END
+HermiteParametricTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1504723/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss/HermiteParametricTest.java
+END
+LegendreTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1497952/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/gauss/LegendreTest.java
+END

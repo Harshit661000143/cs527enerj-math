@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/1594174/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim
+END
+SimpleValueCheckerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1420684/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim/SimpleValueCheckerTest.java
+END
+SimpleVectorValueCheckerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1420684/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim/SimpleVectorValueCheckerTest.java
+END
+PointValuePairTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1420684/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim/PointValuePairTest.java
+END
+PointVectorValuePairTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1420684/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim/PointVectorValuePairTest.java
+END
+SimplePointCheckerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1420684/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim/SimplePointCheckerTest.java
+END

@@ -1,0 +1,17 @@
+/**
+ * This is my first eclipse program
+ * @version 1.0
+ */
+package org.totalbeginner.tutorial;
+
+public class HelloWorld {
+
+	/**The method that says Hello
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("hello world!");
+
+	}
+
+}

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1591835/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities
+END
+AVLTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/AVLTree.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/package-info.java
+END
+OrderedTuple.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1591835/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple.java
+END

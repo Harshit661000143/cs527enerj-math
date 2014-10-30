@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1573523/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim/nonlinear/scalar
+END
+MultiStartMultivariateOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/1573523/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim/nonlinear/scalar/MultiStartMultivariateOptimizerTest.java
+END
+MultivariateFunctionMappingAdapterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/1504468/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim/nonlinear/scalar/MultivariateFunctionMappingAdapterTest.java
+END
+MultivariateFunctionPenaltyAdapterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/1421054/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optim/nonlinear/scalar/MultivariateFunctionPenaltyAdapterTest.java
+END

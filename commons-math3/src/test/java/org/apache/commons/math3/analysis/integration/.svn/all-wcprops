@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration
+END
+IterativeLegendreGaussIntegratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1497904/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/IterativeLegendreGaussIntegratorTest.java
+END
+LegendreGaussIntegratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1377244/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/LegendreGaussIntegratorTest.java
+END
+SimpsonIntegratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1374632/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/SimpsonIntegratorTest.java
+END
+RombergIntegratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1374632/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/RombergIntegratorTest.java
+END
+TrapezoidIntegratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1374632/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/TrapezoidIntegratorTest.java
+END
+MidPointIntegratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1538354/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/integration/MidPointIntegratorTest.java
+END

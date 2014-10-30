@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1609577/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod
+END
+PolygonsSetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1590251/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSetTest.java
+END
+FrenchVector2DFormatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1571737/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/FrenchVector2DFormatTest.java
+END
+LineTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1555175/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/LineTest.java
+END
+Vector2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1563684/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DTest.java
+END
+Euclidean2DTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1571737/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2DTest.java
+END
+DiskGeneratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1564921/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/DiskGeneratorTest.java
+END
+SubLineTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1555175/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/SubLineTest.java
+END
+Vector2DFormatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1571737/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormatTest.java
+END
+SegmentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1555174/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/SegmentTest.java
+END
+Vector2DFormatAbstractTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1571737/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormatAbstractTest.java
+END

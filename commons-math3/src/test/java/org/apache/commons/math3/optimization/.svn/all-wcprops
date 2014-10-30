@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1547633/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization
+END
+PointVectorValuePairTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1337849/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/PointVectorValuePairTest.java
+END
+MultivariateDifferentiableMultiStartOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/asf/!svn/ver/1384907/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/MultivariateDifferentiableMultiStartOptimizerTest.java
+END
+SimplePointCheckerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1412713/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/SimplePointCheckerTest.java
+END
+MultivariateDifferentiableVectorMultiStartOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/asf/!svn/ver/1384907/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/MultivariateDifferentiableVectorMultiStartOptimizerTest.java
+END
+SimpleValueCheckerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1412713/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/SimpleValueCheckerTest.java
+END
+SimpleVectorValueCheckerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1412713/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/SimpleVectorValueCheckerTest.java
+END
+MultivariateMultiStartOptimizerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1244107/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/MultivariateMultiStartOptimizerTest.java
+END
+PointValuePairTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1337849/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/optimization/PointValuePairTest.java
+END

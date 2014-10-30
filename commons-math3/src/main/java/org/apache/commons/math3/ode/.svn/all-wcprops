@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/1590561/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode
+END
+JacobianMatrices.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1538354/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/JacobianMatrices.java
+END
+AbstractIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1517418/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/AbstractIntegrator.java
+END
+ExpandableStatefulODE.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1463680/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/ExpandableStatefulODE.java
+END
+SecondOrderIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/SecondOrderIntegrator.java
+END
+ODEIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/ODEIntegrator.java
+END
+Parameterizable.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/Parameterizable.java
+END
+ContinuousOutputModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1463684/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/ContinuousOutputModel.java
+END
+ParameterConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/ParameterConfiguration.java
+END
+ParameterJacobianWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/ParameterJacobianWrapper.java
+END
+FirstOrderConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/FirstOrderConverter.java
+END
+EquationsMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/EquationsMapper.java
+END
+SecondOrderDifferentialEquations.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/SecondOrderDifferentialEquations.java
+END
+UnknownParameterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/UnknownParameterException.java
+END
+SecondaryEquations.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/SecondaryEquations.java
+END
+ParameterJacobianProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/ParameterJacobianProvider.java
+END
+FirstOrderIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/FirstOrderIntegrator.java
+END
+ParameterizedODE.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/ParameterizedODE.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1588753/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/package-info.java
+END
+MultistepIntegrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1463684/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/MultistepIntegrator.java
+END
+MainStateJacobianProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/MainStateJacobianProvider.java
+END
+FirstOrderDifferentialEquations.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/FirstOrderDifferentialEquations.java
+END
+AbstractParameterizable.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/AbstractParameterizable.java
+END
+ParameterizedWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1416643/commons/proper/math/trunk/src/main/java/org/apache/commons/math3/ode/ParameterizedWrapper.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1612042/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/polynomials
+END
+PolynomialFunctionNewtonFormTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1383437/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunctionNewtonFormTest.java
+END
+PolynomialFunctionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1612042/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunctionTest.java
+END
+PolynomialFunctionLagrangeFormTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/1364030/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunctionLagrangeFormTest.java
+END
+PolynomialSplineFunctionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/1491625/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/polynomials/PolynomialSplineFunctionTest.java
+END
+PolynomialsUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1517203/commons/proper/math/trunk/src/test/java/org/apache/commons/math3/analysis/polynomials/PolynomialsUtilsTest.java
+END
