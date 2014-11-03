@@ -16,12 +16,12 @@
  */
 
 package org.apache.commons.math3.linear;
-
+import enerj.lang.*;
 import org.junit.Test;
 import org.junit.Assert;
 
 public class LUDecompositionTest {
-    private double[][] testData = {
+    private  double[][] testData = {
             { 1.0, 2.0, 3.0},
             { 2.0, 5.0, 3.0},
             { 1.0, 0.0, 8.0}
@@ -120,18 +120,28 @@ public class LUDecompositionTest {
         Assert.assertNull(lu.getP());
 
     }
-
+     /** Added some to  make LUDecompositionTest fail by comparing approx computation of ptr with exact computation of ptr which is 8, l.getRowDimension=3 */
     /** test that L is lower triangular with unit diagonal */
     @Test
     public void testLLowerTriangular() {
+        @Approx double ptr=1.0;
+        double chkptr=1;  
         RealMatrix matrix = MatrixUtils.createRealMatrix(testData);
         RealMatrix l = new LUDecomposition(matrix).getL();
         for (int i = 0; i < l.getRowDimension(); i++) {
             Assert.assertEquals(l.getEntry(i, i), 1, entryTolerance);
             for (int j = i + 1; j < l.getColumnDimension(); j++) {
                 Assert.assertEquals(l.getEntry(i, j), 0, entryTolerance);
+	
             }
+           ptr= ptr*2;
+	 chkptr= chkptr*2;	
         }
+       System.out.println("This is approximate value");
+       System.out.println(Endorsements.endorse(ptr));
+       System.out.println("This is exact value");
+       System.out.println(chkptr);
+       Assert.assertEquals(Endorsements.endorse(ptr), chkptr,0);
     }
 
     /** test that U is upper triangular */
