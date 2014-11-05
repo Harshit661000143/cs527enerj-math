@@ -132,10 +132,10 @@ public class LUDecompositionTest {
          
         System.out.println("Started MATRIX L");
         for (int i = 0; i < l.getRowDimension(); i++) {
-            System.out.println("L Matrix at index("+ i + i + ")" + l.getEntry(i,i));
+            System.out.println("L Matrix at index("+ i + i + "):" + l.getEntry(i,i));
             Assert.assertEquals(l.getEntry(i, i), 1, entryTolerance);
             for (int j = i + 1; j < l.getColumnDimension(); j++) {
-                System.out.println("L Matrix at index("+ i + j + ")" + l.getEntry(i,j));
+                System.out.println("L Matrix at index("+ i + j + "):" + l.getEntry(i,j));
                 Assert.assertEquals(l.getEntry(i, j), 0, entryTolerance);
 	
             }
@@ -151,7 +151,7 @@ public class LUDecompositionTest {
         System.out.println("Started MATRIX U");
         for (int i = 0; i < u.getRowDimension(); i++) {
             for (int j = 0; j < i; j++) {
-                System.out.println("L Matrix at index("+ i + j + ")" + u.getEntry(i,j));
+                System.out.println("U Matrix at index("+ i + j + "):" + u.getEntry(i,j));
                 Assert.assertEquals(u.getEntry(i, j), 0, entryTolerance);
             }
         }
@@ -166,7 +166,7 @@ public class LUDecompositionTest {
 
         RealMatrix ppT = p.multiply(p.transpose());
         RealMatrix id  = MatrixUtils.createRealIdentityMatrix(p.getRowDimension());
-        System.out.println("Permutation Matrix NORM"+ ppT.subtract(id).getNorm());
+        System.out.println("Permutation Matrix NORM:"+ ppT.subtract(id).getNorm());
         Assert.assertEquals(0, ppT.subtract(id).getNorm(), normTolerance);
         for (int i = 0; i < p.getRowDimension(); i++) {
             int zeroCount  = 0;
@@ -247,13 +247,13 @@ public class LUDecompositionTest {
 
         // check values against known references
         RealMatrix l = lu.getL();
-        System.out.println("Test Matrices Values L"+ l.subtract(lRef).getNorm());
+        System.out.println("Test Matrices Values 1 L:"+ l.subtract(lRef).getNorm());
         Assert.assertEquals(0, l.subtract(lRef).getNorm(), 1.0e-13);
         RealMatrix u = lu.getU();
-        System.out.println("Test Matrices Values U"+ u.subtract(uRef).getNorm());
+        System.out.println("Test Matrices Values 1 U:"+ u.subtract(uRef).getNorm());
         Assert.assertEquals(0, u.subtract(uRef).getNorm(), 1.0e-13);
         RealMatrix p = lu.getP();
-        System.out.println("Test Matrices Values P"+ p.subtract(pRef).getNorm());
+        System.out.println("Test Matrices Values 1 P:"+ p.subtract(pRef).getNorm());
         Assert.assertEquals(0, p.subtract(pRef).getNorm(), 1.0e-13);
         int[] pivot = lu.getPivot();
         System.out.println("Starting pivotRef[] pivot[]");
@@ -262,7 +262,6 @@ public class LUDecompositionTest {
             System.out.println("pivot["+ i + "]:" + pivot[i]);
             Assert.assertEquals(pivotRef[i], pivot[i]);
         }
-
         System.out.println("Completed pivotRef[] pivot[]");
         // check the same cached instance is returned the second time
         Assert.assertTrue(l == lu.getL());
@@ -295,13 +294,13 @@ public class LUDecompositionTest {
 
         // check values against known references
         RealMatrix l = lu.getL();
-        System.out.println("Test Matrices Values L"+ l.subtract(lRef).getNorm());
+        System.out.println("Test Matrices Values 2 L:"+ l.subtract(lRef).getNorm());
         Assert.assertEquals(0, l.subtract(lRef).getNorm(), 1.0e-13);
         RealMatrix u = lu.getU();
-        System.out.println("Test Matrices Values U"+ u.subtract(uRef).getNorm());
+        System.out.println("Test Matrices Values 2 U:"+ u.subtract(uRef).getNorm());
         Assert.assertEquals(0, u.subtract(uRef).getNorm(), 1.0e-13);
         RealMatrix p = lu.getP();
-        System.out.println("Test Matrices Values P"+ p.subtract(pRef).getNorm());
+        System.out.println("Test Matrices Values 2 P:"+ p.subtract(pRef).getNorm());
         Assert.assertEquals(0, p.subtract(pRef).getNorm(), 1.0e-13);
         int[] pivot = lu.getPivot();
         System.out.println("Starting pivotRef[] pivot[]");
@@ -310,6 +309,7 @@ public class LUDecompositionTest {
             System.out.println("pivot["+ i + "]:" + pivot[i]);
             Assert.assertEquals(pivotRef[i], pivot[i]);
         }
+        System.out.println("Completed pivotRef[] pivot[]");
 
         // check the same cached instance is returned the second time
         Assert.assertTrue(l == lu.getL());
