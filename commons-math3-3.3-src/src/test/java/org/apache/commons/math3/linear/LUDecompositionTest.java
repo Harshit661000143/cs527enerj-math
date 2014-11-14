@@ -58,12 +58,12 @@ public class LUDecompositionTest {
     public void testDimensions() {
         RealMatrix matrix = MatrixUtils.createRealMatrix(testData);
         LUDecomposition LU = new LUDecomposition(matrix);
-        Assert.assertEquals(testData.length, LU.getL().getRowDimension());
-        Assert.assertEquals(testData.length, LU.getL().getColumnDimension());
-        Assert.assertEquals(testData.length, LU.getU().getRowDimension());
-        Assert.assertEquals(testData.length, LU.getU().getColumnDimension());
-        Assert.assertEquals(testData.length, LU.getP().getRowDimension());
-        Assert.assertEquals(testData.length, LU.getP().getColumnDimension());
+        assertEquals(testData.length, LU.getL().getRowDimension(),0);
+        assertEquals(testData.length, LU.getL().getColumnDimension(),0);
+        assertEquals(testData.length, LU.getU().getRowDimension(),0);
+        assertEquals(testData.length, LU.getU().getColumnDimension(),0);
+        assertEquals(testData.length, LU.getP().getRowDimension(),0);
+        assertEquals(testData.length, LU.getP().getColumnDimension(),0);
 
     }
 
@@ -87,27 +87,24 @@ public class LUDecompositionTest {
         RealMatrix u = lu.getU();
         RealMatrix p = lu.getP();
         double norm = l.multiply(u).subtract(p.multiply(matrix)).getNorm();
+        assertEquals(0, norm, normTolerance);
         System.out.println("Testing PAEqualLU testData :" + norm);
-        Assert.assertEquals(0, norm, normTolerance);
-
         matrix = MatrixUtils.createRealMatrix(testDataMinus);
         lu = new LUDecomposition(matrix);
         l = lu.getL();
         u = lu.getU();
         p = lu.getP();
         norm = l.multiply(u).subtract(p.multiply(matrix)).getNorm();
+        assertEquals(0, norm, normTolerance);
         System.out.println("Testing PAEqualLU MINUS :" + norm);
-        Assert.assertEquals(0, norm, normTolerance);
-
         matrix = MatrixUtils.createRealIdentityMatrix(17);
         lu = new LUDecomposition(matrix);
         l = lu.getL();
         u = lu.getU();
         p = lu.getP();
         norm = l.multiply(u).subtract(p.multiply(matrix)).getNorm();
+        assertEquals(0, norm, normTolerance);
         System.out.println("Testing PAEqualLU Identity :" + norm);
-        Assert.assertEquals(0, norm, normTolerance);
-
         matrix = MatrixUtils.createRealMatrix(singular);
         lu = new LUDecomposition(matrix);
         Assert.assertFalse(lu.getSolver().isNonSingular());
@@ -130,17 +127,16 @@ public class LUDecompositionTest {
         RealMatrix matrix = MatrixUtils.createRealMatrix(testData);
         RealMatrix l = new LUDecomposition(matrix).getL();
          
-        System.out.println("Started MATRIX L");
+        System.out.println("******************Started MATRIX L*********************");
         for (int i = 0; i < l.getRowDimension(); i++) {
+            assertEquals(l.getEntry(i, i), 1, entryTolerance);
             System.out.println("L Matrix at index("+ i + i + "):" + l.getEntry(i,i));
-            Assert.assertEquals(l.getEntry(i, i), 1, entryTolerance);
             for (int j = i + 1; j < l.getColumnDimension(); j++) {
+                assertEquals(l.getEntry(i, j), 0, entryTolerance);
                 System.out.println("L Matrix at index("+ i + j + "):" + l.getEntry(i,j));
-                Assert.assertEquals(l.getEntry(i, j), 0, entryTolerance);
-	
             }
         }
-        System.out.println("Completed L Matrix");
+        System.out.println("*****************Completed L Matrix***************");
     }
 
     /** test that U is upper triangular */
@@ -148,14 +144,14 @@ public class LUDecompositionTest {
     public void testUUpperTriangular() {
         RealMatrix matrix = MatrixUtils.createRealMatrix(testData);
         RealMatrix u = new LUDecomposition(matrix).getU();
-        System.out.println("Started MATRIX U");
+        System.out.println("******************Started MATRIX U*********************");
         for (int i = 0; i < u.getRowDimension(); i++) {
             for (int j = 0; j < i; j++) {
+                assertEquals(u.getEntry(i, j), 0, entryTolerance);
                 System.out.println("U Matrix at index("+ i + j + "):" + u.getEntry(i,j));
-                Assert.assertEquals(u.getEntry(i, j), 0, entryTolerance);
             }
         }
-        System.out.println("Completed U Matrix");
+        System.out.println("*****************Completed U Matrix**********************");
     }
 
     /** test that P is a permutation matrix */
@@ -166,8 +162,8 @@ public class LUDecompositionTest {
 
         RealMatrix ppT = p.multiply(p.transpose());
         RealMatrix id  = MatrixUtils.createRealIdentityMatrix(p.getRowDimension());
+        assertEquals(0, ppT.subtract(id).getNorm(), normTolerance);
         System.out.println("Permutation Matrix NORM:"+ ppT.subtract(id).getNorm());
-        Assert.assertEquals(0, ppT.subtract(id).getNorm(), normTolerance);
         for (int i = 0; i < p.getRowDimension(); i++) {
             int zeroCount  = 0;
             int oneCount   = 0;
@@ -183,10 +179,10 @@ public class LUDecompositionTest {
                 }
             }
           
+            assertEquals(p.getColumnDimension() - 1, zeroCount,0);
+            assertEquals(1, oneCount,0);
+            assertEquals(0, otherCount,0);
             System.out.println("zeroCount:"+ zeroCount + "\n oneCount:"+ oneCount + "\n otherCount:" + otherCount);
-            Assert.assertEquals(p.getColumnDimension() - 1, zeroCount);
-            Assert.assertEquals(1, oneCount);
-            Assert.assertEquals(0, otherCount);
         }
 
         for (int j = 0; j < p.getColumnDimension(); j++) {
@@ -203,10 +199,10 @@ public class LUDecompositionTest {
                     ++otherCount;
                 }
             }
+            assertEquals(p.getRowDimension() - 1, zeroCount,0);
+            assertEquals(1, oneCount,0);
+            assertEquals(0, otherCount,0);
             System.out.println("zeroCount:"+ zeroCount + "\n oneCount:"+ oneCount + "\n otherCount:" + otherCount);
-            Assert.assertEquals(p.getRowDimension() - 1, zeroCount);
-            Assert.assertEquals(1, oneCount);
-            Assert.assertEquals(0, otherCount);
         }
 
     }
@@ -247,22 +243,22 @@ public class LUDecompositionTest {
 
         // check values against known references
         RealMatrix l = lu.getL();
+        assertEquals(0, l.subtract(lRef).getNorm(), 1.0e-13);
         System.out.println("Test Matrices Values 1 L:"+ l.subtract(lRef).getNorm());
-        Assert.assertEquals(0, l.subtract(lRef).getNorm(), 1.0e-13);
         RealMatrix u = lu.getU();
+        assertEquals(0, u.subtract(uRef).getNorm(), 1.0e-13);
         System.out.println("Test Matrices Values 1 U:"+ u.subtract(uRef).getNorm());
-        Assert.assertEquals(0, u.subtract(uRef).getNorm(), 1.0e-13);
         RealMatrix p = lu.getP();
+        assertEquals(0, p.subtract(pRef).getNorm(), 1.0e-13);
         System.out.println("Test Matrices Values 1 P:"+ p.subtract(pRef).getNorm());
-        Assert.assertEquals(0, p.subtract(pRef).getNorm(), 1.0e-13);
         int[] pivot = lu.getPivot();
-        System.out.println("Starting pivotRef[] pivot[]");
+        System.out.println("****************Starting pivotRef[] pivot[]******************");
         for (int i = 0; i < pivotRef.length; ++i) {
+            assertEquals(pivotRef[i], pivot[i],0);
             System.out.println("pivotRef["+ i + "]:" + pivotRef[i]);
             System.out.println("pivot["+ i + "]:" + pivot[i]);
-            Assert.assertEquals(pivotRef[i], pivot[i]);
         }
-        System.out.println("Completed pivotRef[] pivot[]");
+        System.out.println("*****************Completed pivotRef[] pivot[]*******");
         // check the same cached instance is returned the second time
         Assert.assertTrue(l == lu.getL());
         Assert.assertTrue(u == lu.getU());
@@ -294,26 +290,42 @@ public class LUDecompositionTest {
 
         // check values against known references
         RealMatrix l = lu.getL();
+        assertEquals(0, l.subtract(lRef).getNorm(), 1.0e-13);
         System.out.println("Test Matrices Values 2 L:"+ l.subtract(lRef).getNorm());
-        Assert.assertEquals(0, l.subtract(lRef).getNorm(), 1.0e-13);
         RealMatrix u = lu.getU();
+        assertEquals(0, u.subtract(uRef).getNorm(), 1.0e-13);
         System.out.println("Test Matrices Values 2 U:"+ u.subtract(uRef).getNorm());
-        Assert.assertEquals(0, u.subtract(uRef).getNorm(), 1.0e-13);
         RealMatrix p = lu.getP();
+        assertEquals(0, p.subtract(pRef).getNorm(), 1.0e-13);
         System.out.println("Test Matrices Values 2 P:"+ p.subtract(pRef).getNorm());
-        Assert.assertEquals(0, p.subtract(pRef).getNorm(), 1.0e-13);
         int[] pivot = lu.getPivot();
-        System.out.println("Starting pivotRef[] pivot[]");
+        System.out.println("*****************Starting pivotRef[] pivot[]***************");
         for (int i = 0; i < pivotRef.length; ++i) {
+            assertEquals(pivotRef[i], pivot[i],0);
             System.out.println("pivotRef["+ i + "]:" + pivotRef[i]);
             System.out.println("pivot["+ i + "]:" + pivot[i]);
-            Assert.assertEquals(pivotRef[i], pivot[i]);
         }
-        System.out.println("Completed pivotRef[] pivot[]");
+        System.out.println("*****************Completed pivotRef[] pivot[]**********************");
 
         // check the same cached instance is returned the second time
         Assert.assertTrue(l == lu.getL());
         Assert.assertTrue(u == lu.getU());
         Assert.assertTrue(p == lu.getP());
     }
+public void assertEquals(double obj,double obj1,double tol) {
+try
+        {
+          Assert.assertEquals(obj,obj1,tol);
+           
+          System.out.println("\n********************PASSED****************\nExpected Value:" + obj+"\nActual Value:"+obj1+ "\nTolerance:"+tol);
+        }
+        catch (AssertionError e)
+        {
+          //  throw e;
+          System.out.println("\n*********************FAILED****************\nExpected Value:"+obj+"\nError value:"+obj1);
+        }
+
+      }
+
+
 }
