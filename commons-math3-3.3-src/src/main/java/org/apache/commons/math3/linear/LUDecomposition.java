@@ -48,11 +48,11 @@ import org.apache.commons.math3.util.FastMath;
  */
 public class LUDecomposition {
     /** Default bound to determine effective singularity in LU decomposition. */
-    private static final double DEFAULT_TOO_SMALL = 1e-11;
+    private static  double DEFAULT_TOO_SMALL = 1e-11;
     /** Entries of LU decomposition. */
-    private final double[][] lu;
+    private  double[][] lu;
     /** Pivot permutation associated with LU decomposition. */
-    private final int[] pivot;
+    private  int[] pivot;
     /** Parity of the permutation associated with the LU decomposition. */
     private boolean even;
     /** Singularity indicator. */
@@ -89,7 +89,7 @@ public class LUDecomposition {
                                                matrix.getColumnDimension());
         }
 
-        final int m = matrix.getColumnDimension();
+         int m = matrix.getColumnDimension();
         lu = matrix.getData();
         pivot = new int[m];
         cachedL = null;
@@ -108,7 +108,7 @@ public class LUDecomposition {
 
             // upper
             for (int row = 0; row < col; row++) {
-                final double[] luRow = lu[row];
+                 double[] luRow = lu[row];
                 double sum = luRow[col];
                 for (int i = 0; i < row; i++) {
                     sum -= luRow[i] * lu[i][col];
@@ -120,7 +120,7 @@ public class LUDecomposition {
             int max = col; // permutation row
             double largest = Double.NEGATIVE_INFINITY;
             for (int row = col; row < m; row++) {
-                final double[] luRow = lu[row];
+                 double[] luRow = lu[row];
                 double sum = luRow[col];
                 for (int i = 0; i < col; i++) {
                     sum -= luRow[i] * lu[i][col];
@@ -143,8 +143,8 @@ public class LUDecomposition {
             // Pivot if necessary
             if (max != col) {
                 double tmp = 0;
-                final double[] luMax = lu[max];
-                final double[] luCol = lu[col];
+                 double[] luMax = lu[max];
+                 double[] luCol = lu[col];
                 for (int i = 0; i < m; i++) {
                     tmp = luMax[i];
                     luMax[i] = luCol[i];
@@ -157,7 +157,7 @@ public class LUDecomposition {
             }
 
             // Divide the lower elements by the "winning" diagonal elt.
-            final double luDiag = lu[col][col];
+             double luDiag = lu[col][col];
             for (int row = col + 1; row < m; row++) {
                 lu[row][col] /= luDiag;
             }
@@ -171,10 +171,10 @@ public class LUDecomposition {
      */
     public RealMatrix getL() {
         if ((cachedL == null) && !singular) {
-            final int m = pivot.length;
+             int m = pivot.length;
             cachedL = MatrixUtils.createRealMatrix(m, m);
             for (int i = 0; i < m; ++i) {
-                final double[] luI = lu[i];
+                 double[] luI = lu[i];
                 for (int j = 0; j < i; ++j) {
                     cachedL.setEntry(i, j, luI[j]);
                 }
@@ -191,10 +191,10 @@ public class LUDecomposition {
      */
     public RealMatrix getU() {
         if ((cachedU == null) && !singular) {
-            final int m = pivot.length;
+             int m = pivot.length;
             cachedU = MatrixUtils.createRealMatrix(m, m);
             for (int i = 0; i < m; ++i) {
-                final double[] luI = lu[i];
+                 double[] luI = lu[i];
                 for (int j = i; j < m; ++j) {
                     cachedU.setEntry(i, j, luI[j]);
                 }
@@ -214,7 +214,7 @@ public class LUDecomposition {
      */
     public RealMatrix getP() {
         if ((cachedP == null) && !singular) {
-            final int m = pivot.length;
+             int m = pivot.length;
             cachedP = MatrixUtils.createRealMatrix(m, m);
             for (int i = 0; i < m; ++i) {
                 cachedP.setEntry(i, pivot[i], 1.0);
@@ -240,7 +240,7 @@ public class LUDecomposition {
         if (singular) {
             return 0;
         } else {
-            final int m = pivot.length;
+             int m = pivot.length;
             double determinant = even ? 1 : -1;
             for (int i = 0; i < m; i++) {
                 determinant *= lu[i][i];
@@ -262,13 +262,13 @@ public class LUDecomposition {
     private static class Solver implements DecompositionSolver {
 
         /** Entries of LU decomposition. */
-        private final double[][] lu;
+        private  double[][] lu;
 
         /** Pivot permutation associated with LU decomposition. */
-        private final int[] pivot;
+        private  int[] pivot;
 
         /** Singularity indicator. */
-        private final boolean singular;
+        private  boolean singular;
 
         /**
          * Build a solver from decomposed matrix.
@@ -276,7 +276,7 @@ public class LUDecomposition {
          * @param pivot pivot permutation associated with LU decomposition
          * @param singular singularity indicator
          */
-        private Solver(final double[][] lu, final int[] pivot, final boolean singular) {
+        private Solver( double[][] lu, final int[] pivot, final boolean singular) {
             this.lu       = lu;
             this.pivot    = pivot;
             this.singular = singular;
@@ -289,7 +289,7 @@ public class LUDecomposition {
 
         /** {@inheritDoc} */
         public RealVector solve(RealVector b) {
-            final int m = pivot.length;
+             int m = pivot.length;
             if (b.getDimension() != m) {
                 throw new DimensionMismatchException(b.getDimension(), m);
             }
@@ -297,7 +297,7 @@ public class LUDecomposition {
                 throw new SingularMatrixException();
             }
 
-            final double[] bp = new double[m];
+             double[] bp = new double[m];
 
             // Apply permutations to b
             for (int row = 0; row < m; row++) {
@@ -306,7 +306,7 @@ public class LUDecomposition {
 
             // Solve LY = b
             for (int col = 0; col < m; col++) {
-                final double bpCol = bp[col];
+                 double bpCol = bp[col];
                 for (int i = col + 1; i < m; i++) {
                     bp[i] -= bpCol * lu[i][col];
                 }
@@ -315,7 +315,7 @@ public class LUDecomposition {
             // Solve UX = Y
             for (int col = m - 1; col >= 0; col--) {
                 bp[col] /= lu[col][col];
-                final double bpCol = bp[col];
+                 double bpCol = bp[col];
                 for (int i = 0; i < col; i++) {
                     bp[i] -= bpCol * lu[i][col];
                 }
@@ -327,7 +327,7 @@ public class LUDecomposition {
         /** {@inheritDoc} */
         public RealMatrix solve(RealMatrix b) {
 
-            final int m = pivot.length;
+             int m = pivot.length;
             if (b.getRowDimension() != m) {
                 throw new DimensionMismatchException(b.getRowDimension(), m);
             }
@@ -335,13 +335,13 @@ public class LUDecomposition {
                 throw new SingularMatrixException();
             }
 
-            final int nColB = b.getColumnDimension();
+             int nColB = b.getColumnDimension();
 
             // Apply permutations to b
-            final double[][] bp = new double[m][nColB];
+             double[][] bp = new double[m][nColB];
             for (int row = 0; row < m; row++) {
-                final double[] bpRow = bp[row];
-                final int pRow = pivot[row];
+                 double[] bpRow = bp[row];
+                 int pRow = pivot[row];
                 for (int col = 0; col < nColB; col++) {
                     bpRow[col] = b.getEntry(pRow, col);
                 }
@@ -349,10 +349,10 @@ public class LUDecomposition {
 
             // Solve LY = b
             for (int col = 0; col < m; col++) {
-                final double[] bpCol = bp[col];
+                 double[] bpCol = bp[col];
                 for (int i = col + 1; i < m; i++) {
-                    final double[] bpI = bp[i];
-                    final double luICol = lu[i][col];
+                     double[] bpI = bp[i];
+                     double luICol = lu[i][col];
                     for (int j = 0; j < nColB; j++) {
                         bpI[j] -= bpCol[j] * luICol;
                     }
@@ -361,14 +361,14 @@ public class LUDecomposition {
 
             // Solve UX = Y
             for (int col = m - 1; col >= 0; col--) {
-                final double[] bpCol = bp[col];
-                final double luDiag = lu[col][col];
+                 double[] bpCol = bp[col];
+                 double luDiag = lu[col][col];
                 for (int j = 0; j < nColB; j++) {
                     bpCol[j] /= luDiag;
                 }
                 for (int i = 0; i < col; i++) {
-                    final double[] bpI = bp[i];
-                    final double luICol = lu[i][col];
+                     double[] bpI = bp[i];
+                     double luICol = lu[i][col];
                     for (int j = 0; j < nColB; j++) {
                         bpI[j] -= bpCol[j] * luICol;
                     }
