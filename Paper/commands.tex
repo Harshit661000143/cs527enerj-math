@@ -1,0 +1,204 @@
+%\def\mynote#1{{}}
+\newcommand\mynote[1]{\textcolor{red}{\textsf{$\clubsuit${#1}$\clubsuit$}}}
+
+\newcommand{\blankrow}[1]{\multicolumn{#1}{c}{}}
+\newcommand{\regleq}{\sqsubseteq}
+\newcommand{\regeq}{\equiv}
+\newcommand{\regfiner}{\unlhd}
+
+\newcommand{\st}{\; | \;}
+\newcommand{\fa}{\forall \,}
+\newcommand{\ex}{\exists \ }
+% \newcommand{\defeq}{\stackrel{\cdot}{=}}
+
+\newcommand{\bottom}{\perp}
+\newcommand{\dbrkts}[1]{[\![#1]\!]}
+\newcommand{\refine}[1]{\Delta}
+%\newcommand{\ie}{{\it i.e.,~}}
+%\newcommand{\eg}{{\it e.g.,~}}
+\newcommand{\Ie}{\textit{I.e.,}\xspace}
+\newcommand{\ie}{\textit{i.e.,}\xspace}
+\newcommand{\eg}{\textit{e.g.,}\xspace}
+\def\etc{{\it etc.}}
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+
+\newcommand{\nats}{\mathbb{N}}
+\newcommand{\vars}{V}
+\newcommand{\locs}{X}
+\newcommand{\propvars}{\vars_\prop}
+\newcommand{\confvars}{Y}
+\newcommand{\invars}{\ensuremath{\vars_0}}
+\newcommand{\globs}{G}
+\newcommand{\exprs}{E}
+\newcommand{\cmds}{C}
+
+
+\newcommand{\expr}{e}
+\newcommand{\cmd}{c}
+\newcommand{\acmd}{a}
+\newcommand{\thrd}{t}
+\newcommand{\thrds}{T}
+\newcommand{\pcs}{{L}}
+\newcommand{\pc}{{l}}
+%\newcommand{\pgms}{P}
+\newcommand{\pgm}{P}
+\newcommand{\cfg}{\mathit{C}}
+\newcommand{\CUDA}{{\textsc{CUDA}}\xspace}
+\newcommand{\tids}{{Tid}}
+
+
+\newcommand{\vals}{{Vals}}
+\newcommand{\states}{\Sigma}
+\newcommand{\state}{\sigma}
+%\newcommand{\traces}{\Tau}
+\newcommand{\trace}{\tau}
+
+
+\newcommand{\adepends}[3]{\mathsf{StaticFlowsTo}({#1}, {#2}, {#3})}
+\newcommand{\depends}[2]{\mathsf{FlowsTo}({#1}, {#2})}
+\newcommand{\tracesof}[1]{\mathsf{Traces}({#1})}
+
+
+%\newcommand{\flowsto}[3]{{{#1} \vdash {#2} \triangleright {#3}}}
+\newcommand{\flowsto}[3]{{{#2} \in \depends{#1}{#3}}}
+
+\newcommand{\op}{\oplus}
+
+\newcommand{\sel}[2]{{#1}[{#2}]}
+\newcommand{\seq}[2]{{{#1}; {#2}}}
+\newcommand{\asgn}[2]{{#1} \mono{\ =\ } {#2}}
+\newcommand{\aget}[3]{\asgn{#1}{\sel{#2}{#3}}}
+\newcommand{\aset}[3]{\asgn{\sel{#1}{#2}}{#3}}
+\newcommand{\proj}[2]{{#1}[{#2}]}
+\newcommand{\assume}[1]{\mathtt{assume}({#1})}
+\newcommand{\assert}[1]{\mathtt{assert}({#1})}
+
+\newcommand{\enqa}[1]{\mathtt{enqa}({#1})}
+\newcommand{\jdeq}[1]{\mathtt{jdeq}({#1})}
+\newcommand{\proflush}{\mathtt{proflush}}
+
+\newcommand{\true}{\mathit{true}}
+\newcommand{\false}{\mathit{false}}
+\newcommand{\upd}[3]{{#1}[{#2} \mapsto {#3}]}
+\newcommand{\updtid}[4]{\upd{#1}{#2}{\upd{{#1}({#2})}{#3}{#4}}}
+
+
+
+\newcommand{\neqover}[3]{{{#1} \not \equiv_{#3} {#2}}}
+\newcommand{\eqover}[3]{{{#1} \equiv_{#3} {#2}}}
+%\newcommand{\eqover}[3]{{\proj{#1}{#3} = \proj{#2}{#3}}}
+
+\newcommand{\sat}[2]{{#1} \models {#2}}
+\newcommand{\card}[1]{|#1|}
+\newcommand{\setof}[1]{2^{#1}}
+\newcommand{\seqof}[1]{\overline{#1}}
+\newcommand{\prop}{\Phi}
+
+\newcommand{\trel}[2]{{#1} \hookrightarrow {#2}}
+\newcommand{\init}[2]{{{#1} \vdash {#2}}}
+\newcommand{\step}[3]{{{#1} \vdash \trel{#2}{#3}}}
+
+
+
+\def\set#1{{\{ #1 \}}}
+\def\zug#1{{\langle #1 \rangle}}
+\newcommand{\transrel}{\leadsto}
+
+\newcounter{indentenumcount}
+\newenvironment{indentenum}{\begin{list}
+   {\arabic{indentenumcount}.}
+   {\usecounter{indentenumcount}
+    \setlength{\parsep}{0pt}
+    \setlength{\leftmargin}{30pt}
+   } 
+  }
+  {\end{list}}
+
+\newcommand{\Fun}{\setv{F}}
+
+\newcommand{\parastart}[1]{\sk\noindent\emph{\textbf{#1 }}}
+
+\newenvironment{sitemize}{\begin{list}
+   {$\bullet$}
+   {\setlength{\topsep}{2pt}
+    \setlength{\itemsep}{2pt}
+    \setlength{\leftmargin}{10pt}
+    }
+  }
+  {\end{list}}
+
+\newcommand{\sparagraph}[1]{\smallskip\noindent\emph{\textbf{#1}}}
+
+
+
+\newcommand{\mmono}[1]{\ensuremath{\mono{{#1}}}\xspace}
+\newcommand{\gridDim}{\mmono{gridDim}}
+\newcommand{\blockDim}{\mmono{blockDim}}
+\newcommand{\blockId}{\mmono{blockId}}
+\newcommand{\threadId}{\mmono{threadId}}
+\newcommand{\accumRes}{\mmono{accumRes}}
+\newcommand{\dA}{\mmono{d\_A}}
+\newcommand{\dB}{\mmono{d\_B}}
+\newcommand{\dC}{\mmono{d\_C}}
+
+\newcommand{\sizeN}{\mmono{sizeN}}
+\newcommand{\accumN}{\mmono{accumN}}
+\newcommand{\iAccum}{\mmono{i}}
+\newcommand{\syncthreads}{\mmono{\_\_syncthreads()}}
+\newcommand{\stride}{\mmono{stride}}
+\newcommand{\accumResi}{\mmono{accumRes[i]}}
+\newcommand{\scalarProd}{\mmono{scalarProd}}
+
+
+\newcommand{\numthreads}{\blockDim}
+\newcommand{\addrof}[1]{``{#1}"}
+\newcommand{\barflag}{{\mmono{flag}}}
+\newcommand{\barcount}{{\mmono{count}}}
+\newcommand{\vartid}{\threadId}
+\newcommand{\varlog}{\mmono{log}}
+\newcommand{\pcwait}{\pc_{wait}}
+\newcommand{\pcgo}{\pc_{go}}
+\newcommand{\Rd}{\mathsf{Rd}}
+\newcommand{\Wr}{\mathsf{Wr}}
+
+\newcommand{\logRd}[2]{\aset{\varlog}{\vartid}{\sel{\varlog}{\vartid} \cup (\Rd, \addrof{#1}, {#2})}}
+\newcommand{\logWr}[2]{\aset{\varlog}{\vartid}{\sel{\varlog}{\vartid} \cup (\Wr, \addrof{#1}, {#2})}}
+\newcommand{\logClear}{\aset{\varlog}{\vartid}{\emptyset}}
+\newcommand{\propdet}{\prop_{Det}}
+
+\newcommand{\locx}{\mono{x}}
+\newcommand{\locy}{\mono{y}}
+\newcommand{\globg}{\mono{g}}
+\newcommand{\globh}{\mono{h}}
+\newcommand{\que}{\mono{q}}
+\newcommand{\head}{\mono{head}}
+\newcommand{\tail}{\mono{tail}}
+\newcommand{\N}{\mono{N}}
+\newcommand{\spec}{\mono{S}}
+\newcommand{\pcnxt}{\mono{$l_{next}$}}
+\newcommand{\ret}{\mono{ret}}
+%newcommand{\top}{\mono{top}}
+\newcommand{\con}{\mono{Pcon}}
+\newcommand{\const}{\mono{n}}
+%\newcommand{\top}{\mono{top}}
+
+
+\newcommand{\tid}{\mathit{tid}}
+\newcommand{\addr}{\mathit{addr}}
+\newcommand{\intv}{\mathit{intvl}}
+\newcommand{\loc}{\ensuremath{\mono{x}}}
+\newcommand{\glob}{\ensuremath{\mono{g}}}
+%\newcommand{\var}{\mono{v}}
+\newcommand{\varv}{\ensuremath{\mono{v}}}
+\newcommand{\varw}{\ensuremath{\mono{w}}}
+\newcommand{\var}{\varv}
+
+
+% \newcommand{\mypara}[1]{\textbf{#1}}
+
+\newcommand{\mypara}[1]{\smallskip\noindent\emph{\textbf{#1}}}
+
+
+

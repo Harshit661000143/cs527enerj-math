@@ -1,0 +1,92 @@
+\documentclass[pageno]{jpaper}
+
+\usepackage[normalem]{ulem}
+\usepackage{subcaption} % for subfigure
+%\usepackage{subfigure} % for subfigure
+\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{float}
+\usepackage{mdwlist}   % for enumerate*
+\usepackage{colortbl}  % for highlighting profane rows in tables
+\usepackage{mathrsfs}
+\usepackage{mathpartir}
+%\usepackage[font={small,it}]{caption}
+\usepackage{caption}
+\usepackage{balance}
+\usepackage{tabularx}
+\usepackage{pifont}
+\usepackage{textcomp} % for vertically centered tilde -- \texttildelow
+\usepackage{chngpage} % used to adjust too large of table into left margin
+\usepackage{algorithm2e} % for BIST routin algorithms
+
+\usepackage[compact]{titlesec}
+
+\newcommand{\ignore}[1]{}
+\input{commands}
+\input{constants}
+
+
+\newcommand{\subsectionPull}[1]{\subsection{#1}\vspace{-0.0ex}}
+\newcommand{\sectionPull}[1]{\section{#1}\vspace{-0.0ex}}
+
+
+\begin{document}
+
+\title{
+Automated Regression Testing for Software Run on Approximate Hardware
+%\vspace{-5ex}
+}
+\author{
+  Dokania, Harshit\\
+  \texttt{hdokani2@illinois.edu}
+  \and
+  Duwe, Henry\\
+  \texttt{duweiii2@illinois.edu}
+}
+\date{}
+\maketitle
+
+\thispagestyle{empty}
+
+\begin{abstract}
+\input{abs}
+\end{abstract}
+
+\sectionPull{Introduction} \label{sec:intro}
+\input{intro}
+
+\sectionPull{Related Work} \label{sec:related}
+\input{relatedWork}
+
+\sectionPull{Motivation} \label{sec:motivation}
+\input{motivation}
+
+\sectionPull{Main Idea} \label{sec:main_idea}
+\input{main.tex}
+
+\sectionPull{Methodology} \label{sec:methodology}
+\input{methodology}
+
+\sectionPull{Results} \label{sec:results}
+\input{results}
+
+\sectionPull{Conclusion} \label{sec:concl}
+\input{conclusion}
+
+
+%\appendix
+%\section*{Appendix}
+%\section{Blah} \label{app:blah}
+%\input{append}
+
+\bstctlcite{bstctl:etal, bstctl:nodash, bstctl:simpurl}
+\bibliographystyle{IEEEtranS}
+\bibliography{references}
+
+
+\end{document}
+
