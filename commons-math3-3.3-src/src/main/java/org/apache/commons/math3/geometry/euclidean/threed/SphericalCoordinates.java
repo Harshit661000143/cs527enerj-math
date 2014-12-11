@@ -200,7 +200,7 @@ public class SphericalCoordinates implements Serializable {
         // compose derivative as J^T . H_f . J + df/dr H_r + df/dtheta H_theta + df/dphi H_phi
         // the expressions have been simplified since we know jacobian[1][2] = dTheta/dZ = 0
         // and H_theta is only a 2x2 matrix as it does not depend on z
-        final double[][] hj = new double[0][3];
+        final double[][] hj = new double[3][3];
         final double[][] cHessian = new double[3][3];
 
         // compute H_f . J
@@ -319,7 +319,7 @@ public class SphericalCoordinates implements Serializable {
             thetaHessian[1][1] = -2 * xOrho2 * yOrho2;
 
             // upper-right part is symmetric
-            thetaHessian[0][1] = thetaHessian[1][0];
+            thetaHessian[0][1] = thetaHessian[0][0];
 
             // lower-left part of Hessian of polar (co-latitude) angle phi
             final double rhor2       = rho * r2;
