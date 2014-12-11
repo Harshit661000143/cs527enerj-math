@@ -1,1 +1,0 @@
-{"operations":{"loadFIELD":[2,0],"storeVARIABLE":[4,2],"loadVARIABLE":[5,4],"DOUBLE*":[0,2]},"footprint":{"stack-bytes":[1184,400],"heap-bytes":[216,0],"heap-objects":[27,0],"stack-objects":[148,50]},"totalErrors":{"Abs Errs":[1.1125369292536007E-308],"Errs":[-1.1125369292536007E-308]}}
