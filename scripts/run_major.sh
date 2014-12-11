@@ -3,13 +3,12 @@
 WORKSPACE=`pwd`
 
 
-#WORKSPACE=/dcsdata/home/hdokani2/Desktop/cs527
 commons_math_src=${WORKSPACE}/commons-math3-3.3-src
 commons_math_src_tar=${WORKSPACE}/commons-math3-3.3-src.tar.gz
 commons_math_bin_tar=${WORKSPACE}/commons-math3-3.3-bin.tar.gz
 commons_classes=${commons_math_src}/target/classes
 tests=${commons_math_src}/target/test-classes/
-run_path=/dcsdata/home/hdokani2/Desktop/cs527/commons-math3-3.3-src/src/test/java
+run_path=${commons_math_src}/src/test/java
 results_dir=${WORKSPACE}/resultsK/
 
 
