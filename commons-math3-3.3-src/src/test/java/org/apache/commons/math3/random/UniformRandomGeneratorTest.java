@@ -33,8 +33,25 @@ public class UniformRandomGeneratorTest {
         for (int i = 0; i < sample.length; ++i) {
             sample[i] = generator.nextNormalizedDouble();
         }
-        Assert.assertEquals(0.0, StatUtils.mean(sample), 0.07);
-        Assert.assertEquals(1.0, StatUtils.variance(sample), 0.02);
+        assertEquals(0.0, StatUtils.mean(sample), 0.07);
+        assertEquals(1.0, StatUtils.variance(sample), 0.02);
     }
+   public void assertEquals(double obj,double obj1,double tol) {
+ try
+         {
+           Assert.assertEquals(obj,obj1,tol);
+	   double error2= obj1-obj;
+           error2= Math.abs(error2);	
+           System.out.println("\n********************PASSED****************\nExpected Value:" + obj+"\nError Value:"+error2+ "\nTolerance:"+tol);
+         }
+         catch (AssertionError e)
+         {
+           //  throw e;
+	   double error= obj1-obj;
+           error= Math.abs(error);	
+           System.out.println("\n*********************FAILED****************\nExpected Value:"+obj+"\nError value:"+error);
+         }
+ 
+       }
 
 }

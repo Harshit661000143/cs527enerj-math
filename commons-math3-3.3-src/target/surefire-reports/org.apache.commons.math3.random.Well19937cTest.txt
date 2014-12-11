@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.commons.math3.random.Well19937cTest
--------------------------------------------------------------------------------
-Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.801 sec - in org.apache.commons.math3.random.Well19937cTest

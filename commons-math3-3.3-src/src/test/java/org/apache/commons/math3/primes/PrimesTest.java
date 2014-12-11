@@ -19,7 +19,7 @@ package org.apache.commons.math3.primes;
 
 import java.util.HashSet;
 import java.util.List;
-
+import enerj.lang.*;
 import org.apache.commons.math3.exception.MathIllegalArgumentException;
 import org.apache.commons.math3.exception.util.LocalizedFormats;
 import org.junit.Assert;

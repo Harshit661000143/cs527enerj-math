@@ -29,7 +29,7 @@ public class EuclideanDistanceTest {
     @Test
     public void testZero() {
         final double[] a = { 0, 1, -2, 3.4, 5, -6.7, 89 };
-        Assert.assertEquals(0, distance.compute(a, a), 0d);
+        assertEquals(0, distance.compute(a, a), 0d);
     }
 
     @Test
@@ -37,7 +37,24 @@ public class EuclideanDistanceTest {
         final double[] a = { 1, -2, 3, 4 };
         final double[] b = { -5, -6, 7, 8 };
         final double expected = FastMath.sqrt(84);
-        Assert.assertEquals(expected, distance.compute(a, b), 0d);
-        Assert.assertEquals(expected, distance.compute(b, a), 0d);
+        assertEquals(expected, distance.compute(a, b), 0d);
+        assertEquals(expected, distance.compute(b, a), 0d);
     }
+   public void assertEquals(double obj,double obj1,double tol) {
+ try
+         {
+           Assert.assertEquals(obj,obj1,tol);
+	   double error2= obj1-obj;
+           error2= Math.abs(error2);	
+           System.out.println("\n********************PASSED****************\nExpected Value:" + obj+"\nError Value:"+error2+ "\nTolerance:"+tol);
+         }
+         catch (AssertionError e)
+         {
+           //  throw e;
+	   double error= obj1-obj;
+           error= Math.abs(error);	
+           System.out.println("\n*********************FAILED****************\nExpected Value:"+obj+"\nError value:"+error);
+         }
+ 
+       }
 }

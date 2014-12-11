@@ -10,10 +10,13 @@ public class MultiplyTest {
 	public void testMultiply() {
 		
 		Junit test = new Junit();
-                @Approx double a=3;
-		@Approx double b=4;
+                double a=3;
+		 double b=4;
+//		@Approx double b=4;
+//		@Approx double b=4;
 		double result= test.multiply(a, b);
-		assertEquals(12, result,0);
+			
+		assertEquals(12, result,1);
 	}
 
 }

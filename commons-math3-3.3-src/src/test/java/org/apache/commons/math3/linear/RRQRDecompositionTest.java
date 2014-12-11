@@ -70,10 +70,10 @@ public class RRQRDecompositionTest {
         int rows = m.getRowDimension();
         int columns = m.getColumnDimension();
         RRQRDecomposition qr = new RRQRDecomposition(m);
-        Assert.assertEquals(rows,    qr.getQ().getRowDimension());
-        Assert.assertEquals(rows,    qr.getQ().getColumnDimension());
-        Assert.assertEquals(rows,    qr.getR().getRowDimension());
-        Assert.assertEquals(columns, qr.getR().getColumnDimension());
+        assertEquals(rows,    qr.getQ().getRowDimension(),0);
+        assertEquals(rows,    qr.getQ().getColumnDimension(),0);
+        assertEquals(rows,    qr.getR().getRowDimension(),0);
+        assertEquals(columns, qr.getR().getColumnDimension(),0);
     }
 
     /** test AP = QR */
@@ -99,7 +99,7 @@ public class RRQRDecompositionTest {
     private void checkAPEqualQR(RealMatrix m) {
         RRQRDecomposition rrqr = new RRQRDecomposition(m);
         double norm = rrqr.getQ().multiply(rrqr.getR()).subtract(m.multiply(rrqr.getP())).getNorm();
-        Assert.assertEquals(0, norm, normTolerance);
+        assertEquals(0, norm, normTolerance);
     }
 
     /** test the orthogonality of Q */
@@ -126,7 +126,7 @@ public class RRQRDecompositionTest {
         RRQRDecomposition qr = new RRQRDecomposition(m);
         RealMatrix eye = MatrixUtils.createRealIdentityMatrix(m.getRowDimension());
         double norm = qr.getQT().multiply(qr.getQ()).subtract(eye).getNorm();
-        Assert.assertEquals(0, norm, normTolerance);
+        assertEquals(0, norm, normTolerance);
     }
 
     /** test that R is upper triangular */
@@ -160,7 +160,7 @@ public class RRQRDecompositionTest {
             @Override
             public void visit(int row, int column, double value) {
                 if (column < row) {
-                    Assert.assertEquals(0.0, value, entryTolerance);
+                    assertEquals(0.0, value, entryTolerance);
                 }
             }
         });
@@ -197,7 +197,7 @@ public class RRQRDecompositionTest {
             @Override
             public void visit(int row, int column, double value) {
                 if (column > row) {
-                    Assert.assertEquals(0.0, value, entryTolerance);
+                    assertEquals(0.0, value, entryTolerance);
                 }
             }
         });
@@ -227,7 +227,23 @@ public class RRQRDecompositionTest {
         double[][] d = { { 1, 1, 1 }, { 0, 0, 0 }, { 1, 2, 3 } };
         RealMatrix m = new Array2DRowRealMatrix(d);
         RRQRDecomposition qr = new RRQRDecomposition(m);
-        Assert.assertEquals(2, qr.getRank(1.0e-16));
+        assertEquals(2, qr.getRank(1.0e-16),0);
     }
+   public void assertEquals(double obj,double obj1,double tol) {
+ try
+         {
+           Assert.assertEquals(obj,obj1,tol);
+ 
+           System.out.println("\n********************PASSED****************\nExpected Value:" + obj+"\nActual Value:"+obj1+ "\nTolerance:"+tol);
+         }
+         catch (AssertionError e)
+         {
+           //  throw e;
+	   double error= obj1-obj;
+           error= Math.abs(error);	
+           System.out.println("\n*********************FAILED****************\nExpected Value:"+obj+"\nError value:"+error);
+         }
+ 
+       }
 
 }

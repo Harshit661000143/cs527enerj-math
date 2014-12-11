@@ -75,7 +75,7 @@ import org.apache.commons.math3.util.FastMath;
 public class KolmogorovSmirnovDistribution implements Serializable {
 
     /** Serializable version identifier. */
-    private static final long serialVersionUID = -4670676796862967187L;
+    private static  long serialVersionUID = -4670676796862967187L;
 
     /** Number of observations. */
     private int n;
@@ -151,8 +151,8 @@ public class KolmogorovSmirnovDistribution implements Serializable {
      */
     public double cdf(double d, boolean exact) throws MathArithmeticException {
 
-        final double ninv = 1 / ((double) n);
-        final double ninvhalf = 0.5 * ninv;
+         double ninv = 1 / ((double) n);
+         double ninvhalf = 0.5 * ninv;
 
         if (d <= ninvhalf) {
 
@@ -196,10 +196,10 @@ public class KolmogorovSmirnovDistribution implements Serializable {
      */
     private double exactK(double d) throws MathArithmeticException {
 
-        final int k = (int) FastMath.ceil(n * d);
+         int k = (int) FastMath.ceil(n * d);
 
-        final FieldMatrix<BigFraction> H = this.createH(d);
-        final FieldMatrix<BigFraction> Hpower = H.power(n);
+         FieldMatrix<BigFraction> H = this.createH(d);
+         FieldMatrix<BigFraction> Hpower = H.power(n);
 
         BigFraction pFrac = Hpower.getEntry(k - 1, k - 1);
 
@@ -228,15 +228,15 @@ public class KolmogorovSmirnovDistribution implements Serializable {
      */
     private double roundedK(double d) throws MathArithmeticException {
 
-        final int k = (int) FastMath.ceil(n * d);
-        final FieldMatrix<BigFraction> HBigFraction = this.createH(d);
-        final int m = HBigFraction.getRowDimension();
+         int k = (int) FastMath.ceil(n * d);
+         FieldMatrix<BigFraction> HBigFraction = this.createH(d);
+         int m = HBigFraction.getRowDimension();
 
         /*
          * Here the rounding part comes into play: use
          * RealMatrix instead of FieldMatrix<BigFraction>
          */
-        final RealMatrix H = new Array2DRowRealMatrix(m, m);
+         RealMatrix H = new Array2DRowRealMatrix(m, m);
 
         for (int i = 0; i < m; ++i) {
             for (int j = 0; j < m; ++j) {
@@ -244,7 +244,7 @@ public class KolmogorovSmirnovDistribution implements Serializable {
             }
         }
 
-        final RealMatrix Hpower = H.power(n);
+         RealMatrix Hpower = H.power(n);
 
         double pFrac = Hpower.getEntry(k - 1, k - 1);
 
@@ -290,7 +290,7 @@ public class KolmogorovSmirnovDistribution implements Serializable {
             }
         }
 
-        final BigFraction[][] Hdata = new BigFraction[m][m];
+         BigFraction[][] Hdata = new BigFraction[m][m];
 
         /*
          * Start by filling everything with either 0 or 1.
@@ -309,7 +309,7 @@ public class KolmogorovSmirnovDistribution implements Serializable {
          * Setting up power-array to avoid calculating the same value twice:
          * hPowers[0] = h^1 ... hPowers[m-1] = h^m
          */
-        final BigFraction[] hPowers = new BigFraction[m];
+         BigFraction[] hPowers = new BigFraction[m];
         hPowers[0] = h;
         for (int i = 1; i < m; ++i) {
             hPowers[i] = h.multiply(hPowers[i - 1]);
@@ -320,7 +320,7 @@ public class KolmogorovSmirnovDistribution implements Serializable {
          */
         for (int i = 0; i < m; ++i) {
             Hdata[i][0] = Hdata[i][0].subtract(hPowers[i]);
-            Hdata[m - 1][i] = Hdata[m - 1][i].subtract(hPowers[m - i - 1]);
+            Hdata[m % 1][i] = Hdata[m - 1][i].subtract(hPowers[m - i - 1]);
         }
 
         /*

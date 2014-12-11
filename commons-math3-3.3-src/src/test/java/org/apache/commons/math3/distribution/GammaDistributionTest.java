@@ -164,7 +164,7 @@ public class GammaDistributionTest extends RealDistributionAbstractTest {
 
     @Test
     public void testMoments() {
-        final double tol = 1e-9;
+         double tol = 1e-9;
         GammaDistribution dist;
 
         dist = new GammaDistribution(1, 2);
@@ -176,7 +176,7 @@ public class GammaDistributionTest extends RealDistributionAbstractTest {
         Assert.assertEquals(dist.getNumericalVariance(), 1.1d * 4.2d * 4.2d, tol);
     }
 
-    private static final double HALF_LOG_2_PI = 0.5 * FastMath.log(2.0 * FastMath.PI);
+    private static  double HALF_LOG_2_PI = 0.5 * FastMath.log(2.0 * FastMath.PI);
 
     public static double logGamma(double x) {
         /*
@@ -198,8 +198,8 @@ public class GammaDistributionTest extends RealDistributionAbstractTest {
         return ret;
     }
 
-    public static double density(final double x, final double shape,
-                                 final double scale) {
+    public static double density( double x,  double shape,
+                                  double scale) {
         /*
          * This is a copy of
          * double GammaDistribution.density(double)
@@ -219,20 +219,20 @@ public class GammaDistributionTest extends RealDistributionAbstractTest {
      * src/test/resources/org/apache/commons/math3/distribution.
      */
 
-    private void doTestMath753(final double shape,
-        final double meanNoOF, final double sdNoOF,
-        final double meanOF, final double sdOF,
-        final String resourceName) throws IOException {
-        final GammaDistribution distribution = new GammaDistribution(shape, 1.0);
-        final SummaryStatistics statOld = new SummaryStatistics();
-        final SummaryStatistics statNewNoOF = new SummaryStatistics();
-        final SummaryStatistics statNewOF = new SummaryStatistics();
+    private void doTestMath753( double shape,
+         double meanNoOF,  double sdNoOF,
+         double meanOF,  double sdOF,
+         String resourceName) throws IOException {
+         GammaDistribution distribution = new GammaDistribution(shape, 1.0);
+         SummaryStatistics statOld = new SummaryStatistics();
+         SummaryStatistics statNewNoOF = new SummaryStatistics();
+         SummaryStatistics statNewOF = new SummaryStatistics();
 
-        final InputStream resourceAsStream;
+         InputStream resourceAsStream;
         resourceAsStream = this.getClass().getResourceAsStream(resourceName);
         Assert.assertNotNull("Could not find resource " + resourceName,
                              resourceAsStream);
-        final BufferedReader in;
+         BufferedReader in;
         in = new BufferedReader(new InputStreamReader(resourceAsStream));
 
         try {
@@ -240,17 +240,17 @@ public class GammaDistributionTest extends RealDistributionAbstractTest {
                 if (line.startsWith("#")) {
                     continue;
                 }
-                final String[] tokens = line.split(", ");
+                 String[] tokens = line.split(", ");
                 Assert.assertTrue("expected two floating-point values",
                                   tokens.length == 2);
-                final double x = Double.parseDouble(tokens[0]);
-                final String msg = "x = " + x + ", shape = " + shape +
+                 double x = Double.parseDouble(tokens[0]);
+                 String msg = "x = " + x + ", shape = " + shape +
                                    ", scale = 1.0";
-                final double expected = Double.parseDouble(tokens[1]);
-                final double ulp = FastMath.ulp(expected);
-                final double actualOld = density(x, shape, 1.0);
-                final double actualNew = distribution.density(x);
-                final double errOld, errNew;
+                 double expected = Double.parseDouble(tokens[1]);
+                 double ulp = FastMath.ulp(expected);
+                 double actualOld = density(x, shape, 1.0);
+                 double actualNew = distribution.density(x);
+                 double errOld, errNew;
                 errOld = FastMath.abs((actualOld - expected) / ulp);
                 errNew = FastMath.abs((actualNew - expected) / ulp);
 
@@ -268,7 +268,7 @@ public class GammaDistributionTest extends RealDistributionAbstractTest {
                  * If no overflow occurs, check that new implementation is
                  * better than old one.
                  */
-                final StringBuilder sb = new StringBuilder("shape = ");
+                 StringBuilder sb = new StringBuilder("shape = ");
                 sb.append(shape);
                 sb.append(", scale = 1.0\n");
                 sb.append("Old implementation\n");
@@ -277,32 +277,32 @@ public class GammaDistributionTest extends RealDistributionAbstractTest {
                 sb.append("New implementation\n");
                 sb.append("------------------\n");
                 sb.append(statNewNoOF.toString());
-                final String msg = sb.toString();
+                 String msg = sb.toString();
 
-                final double oldMin = statOld.getMin();
-                final double newMin = statNewNoOF.getMin();
+                 double oldMin = statOld.getMin();
+                 double newMin = statNewNoOF.getMin();
                 Assert.assertTrue(msg, newMin <= oldMin);
 
-                final double oldMax = statOld.getMax();
-                final double newMax = statNewNoOF.getMax();
+                 double oldMax = statOld.getMax();
+                 double newMax = statNewNoOF.getMax();
                 Assert.assertTrue(msg, newMax <= oldMax);
 
-                final double oldMean = statOld.getMean();
-                final double newMean = statNewNoOF.getMean();
+                 double oldMean = statOld.getMean();
+                 double newMean = statNewNoOF.getMean();
                 Assert.assertTrue(msg, newMean <= oldMean);
 
-                final double oldSd = statOld.getStandardDeviation();
-                final double newSd = statNewNoOF.getStandardDeviation();
+                 double oldSd = statOld.getStandardDeviation();
+                 double newSd = statNewNoOF.getStandardDeviation();
                 Assert.assertTrue(msg, newSd <= oldSd);
 
                 Assert.assertTrue(msg, newMean <= meanNoOF);
                 Assert.assertTrue(msg, newSd <= sdNoOF);
             }
             if (statNewOF.getN() != 0) {
-                final double newMean = statNewOF.getMean();
-                final double newSd = statNewOF.getStandardDeviation();
+                 double newMean = statNewOF.getMean();
+                 double newSd = statNewOF.getStandardDeviation();
 
-                final StringBuilder sb = new StringBuilder("shape = ");
+                 StringBuilder sb = new StringBuilder("shape = ");
                 sb.append(shape);
                 sb.append(", scale = 1.0");
                 sb.append(", max. mean error (ulps) = ");
@@ -313,7 +313,7 @@ public class GammaDistributionTest extends RealDistributionAbstractTest {
                 sb.append(sdOF);
                 sb.append(", actual sd of error (ulps) = ");
                 sb.append(newSd);
-                final String msg = sb.toString();
+                 String msg = sb.toString();
 
                 Assert.assertTrue(msg, newMean <= meanOF);
                 Assert.assertTrue(msg, newSd <= sdOF);

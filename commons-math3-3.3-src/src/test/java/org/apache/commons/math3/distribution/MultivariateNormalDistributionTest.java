@@ -19,7 +19,7 @@ package org.apache.commons.math3.distribution;
 
 import org.apache.commons.math3.stat.correlation.Covariance;
 import org.apache.commons.math3.linear.RealMatrix;
-
+import enerj.lang.*;
 import java.util.Random;
 import org.junit.Assert;
 import org.junit.Test;

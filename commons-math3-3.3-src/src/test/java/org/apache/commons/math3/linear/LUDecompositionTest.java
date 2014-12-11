@@ -16,7 +16,7 @@
  */
 
 package org.apache.commons.math3.linear;
-import enerj.lang.*;
+//import enerj.lang.*;
 import org.junit.Test;
 import org.junit.Assert;
 
