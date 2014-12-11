@@ -5,8 +5,10 @@ enerjdir=`dirname $0`/..
 enerjjar=$enerjdir/build/enerj.jar
 cfrtjar=$enerjdir/../checker-runtime/build/cfrt.jar
 plumejar=$enerjdir/plume.jar
-target=/dcsdata/home/hdokani2/Desktop/cs527/commons-math3-3.3-src/target/classes
-junitjar=/dcsdata/home/hdokani2/.m2/repository/junit/junit/4.11/junit-4.11.jar
+WORKSPACE=/dcsdata/home/hdokani2/Desktop/cs527
+USER=/dcsdata/home/hdokani2/
+target=${WORKSPACE}/commons-math3-3.3-src/target/classes
+junitjar=${USER}/.m2/repository/junit/junit/4.11/junit-4.11.jar
 jargs=
 for arg
 do
@@ -17,13 +19,7 @@ do
     esac
 done
 
-#command="java -DPrecisionRuntime=enerj.rt.PrecisionRuntimeNoisy  -Xbootclasspath/a:$jsr308jar:$cfrtjar:$enerjjar:$plumejar:$commonjar:$junitjar:. org.junit.runner.JUnitCore  $jargs"
-#command="java -DPrecisionRuntime=enerj.rt.PrecisionRuntimeNoisy  -Xbootclasspath/a:$jsr308jar:$cfrtjar:$enerjjar:$plumejar:$target:$junitjar:. org.junit.runner.JUnitCore  $jargs"
 
 command="java -DPrecisionRuntime=enerj.rt.PrecisionRuntimeNoisy -Xbootclasspath/a:$jsr308jar:$cfrtjar:$enerjjar:$plumejar:$target:$junitjar:. org.junit.runner.JUnitCore  $jargs"
 
-#command="java  -Xbootclasspath/a:$jsr308jar:$cfrtjar:$enerjjar:$plumejar:$target:$junitjar:. org.junit.runner.JUnitCore  $jargs"
-
-#command="java -Xbootclasspath/a:$jsr308jar:$cfrtjar:$enerjjar:$plumejar:$commonjar:. $jargs"
-#command="java -Xbootclasspath/a:$jsr308jar:$cfrtjar:$enerjjar:$plumejar $jargs"
 exec $command
