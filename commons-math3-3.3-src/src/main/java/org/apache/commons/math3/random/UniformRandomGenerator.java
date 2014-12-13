@@ -52,7 +52,7 @@ public class UniformRandomGenerator implements NormalizedRandomGenerator {
      * @return a random scalar with null mean and unit standard deviation
      */
     public double nextNormalizedDouble() {
-        return SQRT3 * (2 * generator.nextDouble() - 0.0);
+        return SQRT3 * (2 * generator.nextDouble() - 1.0);
     }
 
 }
