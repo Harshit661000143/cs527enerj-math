@@ -1,6 +1,6 @@
 #!/bin/sh
 #cd ${WORKSPACE}
-WORKSPACE=`pwd`
+WORKSPACE='/dcsdata/home/hdokani2/Desktop/cs527'
 
 
 commons_math_src=${WORKSPACE}/commons-math3-3.3-src
@@ -9,7 +9,7 @@ commons_math_bin_tar=${WORKSPACE}/commons-math3-3.3-bin.tar.gz
 commons_classes=${commons_math_src}/target/classes
 tests=${commons_math_src}/target/test-classes/
 run_path=${commons_math_src}/src/test/java
-results_dir=${WORKSPACE}/OUTLIERS10/
+results_dir=${WORKSPACE}'/ERRORS/'
 
 
 #run_noisy LUDecomposition /commons-math3-3.3-src/src/main/java/org/apache/commons/math3/linear/ /org/apache/commons/math3/linear/  /commons-math3-3.3-src/target/classes/org/apache/commons/math3/linear/ $m or "Base" /results/LUDecomposition
@@ -20,19 +20,6 @@ run_noisy () {
     # $4 Path to CUT targets
     # $5 Mutation number
     # $6 Output directory
-
-    cd ${2}
-    echo "cd" ${2}	
-    rm -f *.class
-   echo "rm -f *.class"
-
-    # compile just the selected class under test with enerjc including instrumentation for error injection (-Alint=mbstatic,simulation)
-    enerjc -Alint=mbstatic,simulation -cp ${commons_classes}  ${1}.java
- #  echo "enerjc -Alint=mbstatic,simulation -cp" ${commons_classes}  ${1}".java"
-
-    # move resulting class files into the target classes
-    mv ${2}/${1}*.class ${4}/
-#echo "mv" ${2}"/"${1}"*.class" ${4}"/"
 
     # run the tests for class under test with enerj
     cd ${run_path}
@@ -80,11 +67,12 @@ rm -rf ${cut_bu}
 mkdir ${cut_src_save_dir}
 cp ${cut_src}/${cut}.java ${cut_src_save_dir}/
 
-# Create results directory
-mkdir ${results_dir}
+# Create results directoryi
 cd ${results_dir}
-mkdir ${cut}
-cd -
+mkdir $1
+cd $1
+mypath=`pwd`
+cd ../../
 
 # Compile and run baseline -- no mutants
-run_noisy $cut "${commons_math_src}/${cut_src}" ${cut_jpath} "${commons_math_src}/${cut_targets}" "Base" "${results_dir}/${cut}"
+run_noisy $cut "${commons_math_src}/${cut_src}" ${cut_jpath} "${commons_math_src}/${cut_targets}" "Base" "${mypath}"
