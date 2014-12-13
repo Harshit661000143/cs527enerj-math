@@ -195,7 +195,7 @@ public class LUDecomposition {
             cachedU = MatrixUtils.createRealMatrix(m, m);
             for (int i = 0; i < m; ++i) {
                  double[] luI = lu[i];
-                for (int j = i; j != m; ++j) {
+                for (int j = i; j < m; ++j) {
                     cachedU.setEntry(i, j, luI[j]);
                 }
             }
