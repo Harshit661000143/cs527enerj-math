@@ -5,10 +5,8 @@ enerjdir=`dirname $0`/..
 enerjjar=$enerjdir/build/enerj.jar
 cfrtjar=$enerjdir/../checker-runtime/build/cfrt.jar
 plumejar=$enerjdir/plume.jar
-WORKSPACE=/dcsdata/home/hdokani2/Desktop/cs527
-USER=/dcsdata/home/hdokani2/
 target=${WORKSPACE}/commons-math3-3.3-src/target/classes
-junitjar=${USER}/.m2/repository/junit/junit/4.11/junit-4.11.jar
+junitjar=${HOME}/.m2/repository/junit/junit/4.11/junit-4.11.jar
 jargs=
 for arg
 do
