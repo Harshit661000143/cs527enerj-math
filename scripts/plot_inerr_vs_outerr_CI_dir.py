@@ -37,10 +37,10 @@ def returnOutliers(results, x, y, alpha=0.05):
     o_x = []
     o_y = []
 
-    print results.cov_params().shape[0]
+    #print results.cov_params().shape[0]
     exog = results.model.exog
-    print exog.shape
-    print x.shape[0]
+    #print exog.shape
+    #print x.shape[0]
     pred_y, iv_l, iv_u = wls_prediction_std(results, exog=x, weights=None, alpha=alpha)
 
     i = 0
@@ -75,12 +75,31 @@ def calcErrDistBug(in_filename,gold_in_filename,out_filename,title):
     # ensure that we don't actually take the log of 0
     # FIXME: we may need to make this more dynamic so that it doesn't skew results.
     g_mses = np.array(g_mses)
-    zeros = g_mses<=0.0
-    print zeros
-    g_mses[zeros] = 1E-14
-   
-    print g_mses
-    print np.log2(g_mses)
+    g_abs_errs = np.array(g_abs_errs)
+    zeros = g_mses>0.0
+    g_mses = g_mses[zeros]
+    g_abs_errs = g_abs_errs[zeros]
+    #zeros = g_abs_errs>0.0
+    zeros = g_abs_errs>1.0E-10
+    g_mses = g_mses[zeros]
+    g_abs_errs = g_abs_errs[zeros]
+    #print g_mses
+    #print g_abs_errs
+
+    #print g_mses 
+    
+    mses = np.array(mses)
+    abs_errs = np.array(abs_errs)
+    zeros = mses>0.0
+    mses = mses[zeros]
+    abs_errs = abs_errs[zeros]
+    #zeros = abs_errs>0.0
+    zeros = abs_errs>1.0E-10
+    mses = mses[zeros]
+    abs_errs = abs_errs[zeros]
+
+    #print g_mses
+    #print np.log2(g_mses)
 
     g_dist = np.divide(g_mses,g_abs_errs)
     dist = np.divide(mses,abs_errs)
@@ -88,21 +107,21 @@ def calcErrDistBug(in_filename,gold_in_filename,out_filename,title):
     # determine Ordinary Least Squares
     X = np.log2(g_abs_errs)
     X = sm.add_constant(X)
-    print X
-    print len(g_abs_errs)
+    #print X
+    #print len(g_abs_errs)
     #model = sm.OLS(g_mses,X)
     model = sm.OLS(np.log2(g_mses),X)
     #model = sm.RLM(np.log2(g_mses),X)
     results = model.fit()
-    print results.params
-    print results.summary()
-    print dir(results)
+    #print results.params
+    #print results.summary()
+    #print dir(results)
     #print results.outlier_test()
     prstd, iv_l, iv_u = wls_prediction_std(results)
 
     st, data, ss2 = summary_table(results, alpha=0.05)
     
-    print oi.OLSInfluence(results).influence
+    #print oi.OLSInfluence(results).influence
 
     fittedvalues = data[:,2]
     predict_mean_se = data[:,3]
@@ -110,9 +129,9 @@ def calcErrDistBug(in_filename,gold_in_filename,out_filename,title):
     predict_ci_low, predict_ci_upp = data[:,6:8].T
 
     # check we got the right things
-    print np.max(np.abs(results.fittedvalues - fittedvalues))
-    print np.max(np.abs(iv_l - predict_ci_low))
-    print np.max(np.abs(iv_u - predict_ci_upp))
+    #print np.max(np.abs(results.fittedvalues - fittedvalues))
+    #print np.max(np.abs(iv_l - predict_ci_low))
+    #print np.max(np.abs(iv_u - predict_ci_upp))
 
     #legend = []
     #legend.append('> to < Mutation')
@@ -154,7 +173,7 @@ def calcErrDistBug(in_filename,gold_in_filename,out_filename,title):
     #plt.ylabel('Mean Squared Error of Output', fontsize=23)
 
     #plt.show()
-    return len(o_x)
+    return len(o_x),len(mses)
 # end def calcErrDistBug(in_filename,gold_in_filename,out_filename,'LU Output Errors Vs Input Errors')
 
 
@@ -181,10 +200,15 @@ out_filename = options.out_filename
 in_files_sorted = sort_filenames(os.listdir(in_dir))
 
 total_caught = 0
+not_caught = []
 for f in in_files_sorted:
     print 'f: ' + `f`
-    outliers = calcErrDistBug(os.path.join(in_dir,f),gold_in_filename,out_filename,'LU Output Errors Vs Input Errors')
-    if outliers > 26:
+    outliers,num_points = calcErrDistBug(os.path.join(in_dir,f),gold_in_filename,out_filename,'LU Output Errors Vs Input Errors')
+    print outliers
+    if outliers > num_points*0.1:
         total_caught += 1
+    else:
+        not_caught.append(f)
 
 print 'Approx bugs caught: ' + `total_caught` + ' of ' + `len(in_files_sorted)` + ' bugs'
+print not_caught
