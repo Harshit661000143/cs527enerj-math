@@ -58,14 +58,14 @@ def plotErrDistBug(in_filename,gold_in_filename,out_filename,title):
 
     # ensure that we don't actually take the log of 0
     g_mses = np.array(g_mses)
-#    g_abs_errs = np.array(g_abs_errs)
-#    zeros = g_mses>0.0
-#    g_mses = g_mses[zeros]
-#    g_abs_errs = g_abs_errs[zeros]
-#    #zeros = g_abs_errs>0.0
-#    zeros = g_abs_errs>1.0E-10
-#    g_mses = g_mses[zeros]
-#    g_abs_errs = g_abs_errs[zeros]
+    g_abs_errs = np.array(g_abs_errs)
+    zeros = g_mses>0.0
+    g_mses = g_mses[zeros]
+    g_abs_errs = g_abs_errs[zeros]
+    #zeros = g_abs_errs>0.0
+    zeros = g_abs_errs>1.0E-10
+    g_mses = g_mses[zeros]
+    g_abs_errs = g_abs_errs[zeros]
     #print g_mses
     #print g_abs_errs
 
@@ -81,6 +81,7 @@ def plotErrDistBug(in_filename,gold_in_filename,out_filename,title):
         zeros = abs_errs>1.0E-14
         mses = mses[zeros]
         abs_errs = abs_errs[zeros]
+        print 'mses: ' + `mses`
 
     #print g_mses
     #print np.log2(g_mses)
