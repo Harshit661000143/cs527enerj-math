@@ -1,6 +1,4 @@
 #!/bin/sh
-#cd ${WORKSPACE}
-WORKSPACE=`pwd`
 
 
 commons_math_src=${WORKSPACE}/commons-math3-3.3-src
@@ -9,8 +7,8 @@ commons_math_bin_tar=${WORKSPACE}/commons-math3-3.3-bin.tar.gz
 commons_classes=${commons_math_src}/target/classes
 tests=${commons_math_src}/target/test-classes/
 run_path=${commons_math_src}/src/test/java
-results_dir=${WORKSPACE}/resultsK/
-
+results_dir=${WORKSPACE}/resultsL/
+MAJOR_HOME=${WORKSPACE}/major/
 
 #run_noisy LUDecomposition /commons-math3-3.3-src/src/main/java/org/apache/commons/math3/linear/ /org/apache/commons/math3/linear/  /commons-math3-3.3-src/target/classes/org/apache/commons/math3/linear/ $m or "Base" /results/LUDecomposition
 run_noisy () {
@@ -70,9 +68,9 @@ echo "mv" ${2}"/"${1}"*.class" ${4}"/"
 }
 
 # Class Under Test (CUT) macros
-cut=KolmogorovSmirnovDistribution
-cut_jpath=org.apache.commons.math3.distribution
-cut_jpath_src=/org/apache/commons/math3/distribution/
+cut=LUDecomposition
+cut_jpath=org.apache.commons.math3.linear
+cut_jpath_src=/org/apache/commons/math3/linear/
 cut_src=/src/main/java/${cut_jpath_src}
 cut_targets=/target/classes/${cut_jpath_src}
 
@@ -95,12 +93,12 @@ run_noisy $cut "${commons_math_src}/${cut_src}" ${cut_jpath} "${commons_math_src
 #exit #TODO: remove this after debug
 
 # Generate mutated source files for class under test
-mutant_dir=${WORKSPACE}/mutantsK/
-rm -rf ${mutant_dir}
-mkdir ${mutant_dir}
+mutant_dir=${WORKSPACE}/mutants1/
+#rm -rf ${mutant_dir}
+#mkdir ${mutant_dir}
 
 cd ${commons_math_src}/${cut_src}
-${MAJOR_HOME}/bin/javac  -J-Dmajor.export.mutants=true -J-Dmajor.export.directory=${mutant_dir} -XMutator="$MAJOR_HOME/mml/all.mml.bin" -cp ${commons_classes} $cut.java
+#${MAJOR_HOME}/bin/javac  -J-Dmajor.export.mutants=true -J-Dmajor.export.directory=${mutant_dir} -XMutator="$MAJOR_HOME/mml/all.mml.bin" -cp ${commons_classes} $cut.java
 for m in `ls ${mutant_dir}`;
 do
     # Copy mutant code into directory
