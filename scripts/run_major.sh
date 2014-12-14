@@ -55,13 +55,6 @@ echo "mv" ${2}"/"${1}"*.class" ${4}"/"
             # run CUT
             enerj $3.$1Test > ${outfile}.Magnitude.${m}i${i}.tmp 2>&1
             echo "enerj" $3"."$1"Test >" ${outfile}".Magnitude."${m}"i"${i}".tmp 2>&1"
-            # collect output error to gold file
-          #  cat ${outfile}.tmp > ${outfile} #TODO: remove this
-          #  echo "cat" ${outfile}".tmp >" ${outfile} #TODO: remove this
-            # TODO: figure this on out: sed '/vector/!d' < ${outfile}.tmp >> ${outfile}
-            #sed '/^Err/!d' < ${outfile}.tmp >> ${outfile}
-            #sed '/^Abs/!d' < ${outfile}.tmp >> ${outfile}
-        
         done
     done
 
@@ -98,7 +91,7 @@ mutant_dir=${WORKSPACE}/mutants1/
 #mkdir ${mutant_dir}
 
 cd ${commons_math_src}/${cut_src}
-#${MAJOR_HOME}/bin/javac  -J-Dmajor.export.mutants=true -J-Dmajor.export.directory=${mutant_dir} -XMutator="$MAJOR_HOME/mml/all.mml.bin" -cp ${commons_classes} $cut.java
+${MAJOR_HOME}/bin/javac  -J-Dmajor.export.mutants=true -J-Dmajor.export.directory=${mutant_dir} -XMutator="$MAJOR_HOME/mml/all.mml.bin" -cp ${commons_classes} $cut.java
 for m in `ls ${mutant_dir}`;
 do
     # Copy mutant code into directory
