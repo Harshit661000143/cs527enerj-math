@@ -80,7 +80,7 @@ def calcErrDistBug(in_filename,gold_in_filename,out_filename,title):
     g_mses = g_mses[zeros]
     g_abs_errs = g_abs_errs[zeros]
     #zeros = g_abs_errs>0.0
-    zeros = g_abs_errs>1.0E-10
+    zeros = g_abs_errs>1.0E-14
     g_mses = g_mses[zeros]
     g_abs_errs = g_abs_errs[zeros]
     #print g_mses
@@ -94,9 +94,12 @@ def calcErrDistBug(in_filename,gold_in_filename,out_filename,title):
     mses = mses[zeros]
     abs_errs = abs_errs[zeros]
     #zeros = abs_errs>0.0
-    zeros = abs_errs>1.0E-10
+    zeros = abs_errs>1.0E-14
     mses = mses[zeros]
     abs_errs = abs_errs[zeros]
+    skip = 5
+    mses = mses[::skip]
+    abs_errs = abs_errs[::skip]
 
     #print g_mses
     #print np.log2(g_mses)
@@ -204,9 +207,10 @@ not_caught = []
 for f in in_files_sorted:
     print 'f: ' + `f`
     outliers,num_points = calcErrDistBug(os.path.join(in_dir,f),gold_in_filename,out_filename,'LU Output Errors Vs Input Errors')
-    print outliers
+    print 'Outliers: ' + `outliers` + ' of ' + `num_points` + ' points'
     if outliers > num_points*0.1:
         total_caught += 1
+        print 'Caught!'
     else:
         not_caught.append(f)
 

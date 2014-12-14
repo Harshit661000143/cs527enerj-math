@@ -16,7 +16,7 @@ def readTextFileSingleLine(filename):
 
     line = in_file.readline()
     while (line):
-        print line
+        #print line
         vector.append(float(line))
         line = in_file.readline()
     

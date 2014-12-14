@@ -78,7 +78,7 @@ def plotErrDistBug(in_filename,gold_in_filename,out_filename,title):
         mses = mses[zeros]
         abs_errs = abs_errs[zeros]
         #zeros = abs_errs>0.0
-        zeros = abs_errs>1.0E-14
+        zeros = abs_errs>1.0E-10
         mses = mses[zeros]
         abs_errs = abs_errs[zeros]
         print 'mses: ' + `mses`
