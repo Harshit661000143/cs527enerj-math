@@ -87,8 +87,8 @@ run_noisy $cut "${commons_math_src}/${cut_src}" ${cut_jpath} "${commons_math_src
 
 # Generate mutated source files for class under test
 mutant_dir=${WORKSPACE}/mutants1/
-#rm -rf ${mutant_dir}
-#mkdir ${mutant_dir}
+rm -rf ${mutant_dir}
+mkdir ${mutant_dir}
 
 cd ${commons_math_src}/${cut_src}
 ${MAJOR_HOME}/bin/javac  -J-Dmajor.export.mutants=true -J-Dmajor.export.directory=${mutant_dir} -XMutator="$MAJOR_HOME/mml/all.mml.bin" -cp ${commons_classes} $cut.java
